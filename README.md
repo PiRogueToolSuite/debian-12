@@ -1,5 +1,6 @@
 # PiRogue Debian packages
 
+> **Warning**
 > This repository is currently work in progress, preparing the migration from Debian 11 to Debian 12.
 
 ## Install the PiRogue packages repository
