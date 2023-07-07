@@ -146,6 +146,84 @@ Description: Distributed time-series database.
 License: Proprietary
 Vendor: InfluxData
 
+Package: python3-communityid
+Architecture: all
+Version: 1.4-1~pirogue1
+Priority: optional
+Section: python
+Source: communityid
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 65
+Depends: python3:any
+Filename: ./python/python3-communityid_1.4-1~pirogue1_all.deb
+Size: 12860
+MD5sum: b6f7c6c02df8dda55a1c6822d68f61fd
+SHA1: 2e456c217aa66fc89f8d059157f87a4fcc4fd014
+SHA256: 20ab9b1179bc13ce0680bcb6543fa69a2ca164bd84e99e9976894f18bfeba00d
+SHA512: 1ea30cea0461d614c8160db694c796883f661f972eb2bedd9a80a0350025eee5d588d583225af713d16b87ee0fdc50a9d1c58ca0e7b571fd6235cddb95d22c82
+Homepage: https://github.com/corelight/pycommunityid
+Description: Community ID flow hashing
+ FIXME: Long description.
+
+Package: python3-geoip2
+Architecture: all
+Version: 4.5.0-1~pirogue1
+Priority: optional
+Section: python
+Source: geoip2
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 117
+Depends: python3-aiohttp, python3-maxminddb (>= 2.2.0), python3-requests, python3-urllib3, python3:any
+Filename: ./python/python3-geoip2_4.5.0-1~pirogue1_all.deb
+Size: 22048
+MD5sum: ebd192fb5c04f22721e683a276f7eff3
+SHA1: eaa123deb2ec25ee18abc843fd54cefaa67eba7d
+SHA256: ec2e7d3809c24af86c4c64f0e55e4b82b78432ed363d1db31e8b9e93c4164cb4
+SHA512: 621437a747e3eee3a34d880a779d866e0c235aea694dc54b8d777e8978c3b7e7fe2f7f2a1e0194bd969fe31243f54c6ec6c9b7a414190800767eb55b20d99c86
+Homepage: http://www.maxmind.com/
+Description: MaxMind GeoIP2 API
+ FIXME: Long description.
+
+Package: python3-maxminddb
+Architecture: amd64
+Version: 2.2.0-1~pirogue1
+Priority: optional
+Section: python
+Source: maxminddb
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 81
+Provides: python3.9-maxminddb
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2)
+Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_amd64.deb
+Size: 19688
+MD5sum: 59f4fc05851ec13f3ff8612734caeefd
+SHA1: 27df1b7410a1664129de49af175f65ead9b56490
+SHA256: 55128b53fc7832ba2b0fdcbdc29311346d0dbe258c039d53151954c082c9e029
+SHA512: bbbe4106fd4f52c54805be850f1e0e1bde2f3d74bee95988bafab83c35369d61235c18ce9584c59a7f081d85bdab4a20a5f57ca61cf9666582528499855a5fba
+Homepage: http://www.maxmind.com/
+Description: Reader for the MaxMind DB format
+ FIXME: Long description.
+
+Package: python3-maxminddb
+Architecture: arm64
+Version: 2.2.0-1~pirogue1
+Priority: optional
+Section: python
+Source: maxminddb
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 76
+Provides: python3.9-maxminddb
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libmaxminddb0 (>= 1.0.2)
+Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_arm64.deb
+Size: 19580
+MD5sum: 572e472ba45ae7f28510277816448500
+SHA1: 251e5e7ebcfb0a0fee100a34afde493416ac2b3d
+SHA256: d7fb8d0c742aec2ae791a4277e4b3b0f5efe7c40b5d0cb1ba683e2952cc31ef2
+SHA512: 104ac5c9a6ba6988ef5eddd32c94617f4e6eb7050d2f8ec4d8e9d0fca100132544a96325b8275398d1dd58915108a6473ff3c0df4846e23cad636cb7f0ee5b9b
+Homepage: http://www.maxmind.com/
+Description: Reader for the MaxMind DB format
+ FIXME: Long description.
+
 Package: python3-nfstream
 Architecture: amd64
 Version: 6.3.5~ds3
