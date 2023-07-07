@@ -1,0 +1,217 @@
+Package: chronograf
+Architecture: amd64
+Version: 1.9.1-1
+Priority: extra
+Section: default
+Maintainer: contact@influxdb.com
+Installed-Size: 97995
+Filename: ./chronograf_1.9.1-1_amd64.deb
+Size: 33711326
+MD5sum: fb85dc6f80bb1587f15c294ea4232800
+SHA1: 904028d504cf9ba4b748a8f6d992bf1bd066bd4c
+SHA256: 223802d0ff60a5a374f2c76acce7de5f708d97859853de07ec13164591b62f07
+SHA512: 27e849381295d457f7dd41d0687e2ce6139d1ee22eddf455ade5501c382c1f583b706e7ecda5f70901ca7ffbbd8d40a466aff5376b64c4c7a5f1ef9f777375bd
+Homepage: https://github.com/influxdata/chronograf
+Description: Open source monitoring and visualization UI for the entire TICK stack.
+License: AGPLv3
+Vendor: InfluxData
+
+Package: chronograf
+Architecture: arm64
+Version: 1.9.1-1
+Priority: extra
+Section: default
+Maintainer: contact@influxdb.com
+Installed-Size: 94247
+Filename: ./chronograf_1.9.1-1_arm64.deb
+Size: 31796802
+MD5sum: 5f4615b2f3b2c3eead0689633917f0cc
+SHA1: cde7da39559e8c9396197ebe6e04e21cf11ba459
+SHA256: a7c324b70776e50750428fdaf9bd23bb1c6e1ea2f5475cb2c6a8d44d10927c42
+SHA512: 313defa402137d444d5198528da9900c259b4f48501d2c0c70021c8e79981fd491a1b2346ac160edb4ad25994c954ea1037f889bb62d55583f21484092c31433
+Homepage: https://github.com/influxdata/chronograf
+Description: Open source monitoring and visualization UI for the entire TICK stack.
+License: AGPLv3
+Vendor: InfluxData
+
+Package: frida
+Architecture: amd64
+Version: 16.0.19~pirogue1
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 191677
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>= 2.35)
+Filename: ./frida_16.0.19~pirogue1_amd64.deb
+Size: 57151160
+MD5sum: 27653a10527270366b897cce663afa2a
+SHA1: eed2fe273edeabf82d1cedcb13c38ca96c303809
+SHA256: a151b26fdb85d0b3885f5b5acb201e75e4005deaf750cf6770dbc02e99a30876
+SHA512: dfe3920fcb1567030871caab84fd5d444cb676743553458ede281d61d91474c6d6ee4c78b67eed966f85b661bb8e7c565a741a26264dbf461076a7a040e5eefe
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
+Package: frida
+Architecture: arm64
+Version: 16.0.19~pirogue1
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 165176
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>= 2.35)
+Filename: ./frida_16.0.19~pirogue1_arm64.deb
+Size: 49448084
+MD5sum: 1e4526904d07fa77e9559395b7bb25ef
+SHA1: 7aba7a51c1251128674d1422c2d2772b49d47126
+SHA256: 17537bd377fe42111cb2a18833636adde89c89b77332b8e0f94c79312a4fd307
+SHA512: 1e359c5cb5375eebecfaf08ad98d4856305e1fb5d0ff0c557605bcc493f9b07eb7f7ba930eb2f44e61f1aefee3720ea8bb5e427a66fc8578570051f26ea6364d
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
+Package: grafana
+Architecture: amd64
+Version: 8.1.5
+Priority: extra
+Section: default
+Maintainer: contact@grafana.com
+Installed-Size: 184676
+Depends: adduser, libfontconfig1
+Filename: ./grafana_8.1.5_amd64.deb
+Size: 57431320
+MD5sum: 6b33e79c23fc17b6b6ca21558622e258
+SHA1: 89a082d94657a0f0421bd3e7b39537504aee1c66
+SHA256: 3512041e3ff6adbd34a1c1823e29f6e149e5102db31b429238a69d40c32eda5f
+SHA512: d0013e5318f35f1eed2c6590e139fe4cd69fd68814e67187de3ddad2ef805333d9dc8605aa90cc7cea695fe47dba8012c8b3f8639eec7fcbc1e0cded889a4e51
+Homepage: https://grafana.com
+Description: Grafana
+License: "Apache 2.0"
+Vendor: Grafana
+
+Package: grafana
+Architecture: arm64
+Version: 8.1.5
+Priority: extra
+Section: default
+Maintainer: contact@grafana.com
+Installed-Size: 177539
+Depends: adduser, libfontconfig1
+Filename: ./grafana_8.1.5_arm64.deb
+Size: 53581406
+MD5sum: a5593d36514d5d0472f31ec2ef70cde9
+SHA1: b2eab20814fdf595b12ed8e36267ad9760478ca3
+SHA256: 4ad886214c7d14a6e744c325515427ec584220e4e0994734f3d8fdb0e2b4d00e
+SHA512: d68a68323c9c957ee889f9232bd078420b6625935559e21593df1d840fee48fe5f0a3aaebb7a1623312a4d320ee25336d754b212da8b3a061e38bf023512cd98
+Homepage: https://grafana.com
+Description: Grafana
+License: "Apache 2.0"
+Vendor: Grafana
+
+Package: influxdb
+Architecture: amd64
+Version: 1.8.10-1
+Priority: extra
+Section: default
+Maintainer: support@influxdb.com
+Installed-Size: 149777
+Depends: curl
+Filename: ./influxdb_1.8.10-1_amd64.deb
+Size: 54420884
+MD5sum: 4bfc39392cd8af40531d27c10425c7f9
+SHA1: 41a56bf05b97cac758ed1e6b58dc46b7e3fd2de4
+SHA256: b2ace09231575df7309a41cea6f9dc7ad716fe4389dc06ac04470a14bd411456
+SHA512: f35088826cb18094578821550e05d75faed80a0768955bafca0f1b5eb3d9cafb7710f08c05c90460b3404c012864d55e3ec86f3baf04230e4e9a46189d5319cd
+Homepage: https://influxdata.com
+Description: Distributed time-series database.
+License: Proprietary
+Vendor: InfluxData
+
+Package: influxdb
+Architecture: arm64
+Version: 1.8.10-1
+Priority: extra
+Section: default
+Maintainer: support@influxdb.com
+Installed-Size: 144319
+Depends: curl
+Filename: ./influxdb_1.8.10-1_arm64.deb
+Size: 50689260
+MD5sum: de6c15f5664997eb38bb288332395d55
+SHA1: 194301c51cd5bed0b54c31c25569d66913fb3b78
+SHA256: 3ae97d58798031bda4e51771df69df35fcf5d2c788bfe858dc6311d6b0b3d259
+SHA512: 152cce8d6dc3c68ba600f11df8503b1fbf517b1387c23ca790595457fa316213a805e3de81c72c6fa07104e63f2d4be3f5f255707bd17482b6eab2fcf2de97de
+Homepage: https://influxdata.com
+Description: Distributed time-series database.
+License: Proprietary
+Vendor: InfluxData
+
+Package: python3-nfstream
+Architecture: amd64
+Version: 6.3.5~ds3
+Priority: optional
+Section: net
+Source: nfstream
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 1854
+Depends: libc6 (>= 2.33), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any, python3-cffi (>= 1.14.5)
+Filename: ./python3-nfstream_6.3.5~ds3_amd64.deb
+Size: 416016
+MD5sum: d3ed61ea7acfec7503bc486091775daa
+SHA1: a79ed4846e1c52860ffa77befdd6f09a5a150429
+SHA256: bae38fc0ee7754cb666e66937a428eb2670d8e877adc4bb370942ce9c0d63ed8
+SHA512: 6447d7f6708fbb88d6be0236a34018eee8194b7b99fd08d69d00b44763684a0d2d116088df50fb8a32bc0196eb23ec058a7f4f622a9f1c204e085a976f74c17d
+Homepage: https://www.nfstream.org/
+Description: flexible network data analysis framework
+ NFStream is a multiplatform Python framework providing fast, flexible,
+ and expressive data structures designed to make working with online or
+ offline network data both easy and intuitive. It aims to be the
+ fundamental high-level building block for doing practical, real world
+ network data analysis in Python. Additionally, it has the broader goal
+ of becoming a common network data analytics framework for researchers
+ providing data reproducibility across experiments.
+
+Package: python3-nfstream
+Architecture: arm64
+Version: 6.3.5~ds3
+Priority: optional
+Section: net
+Source: nfstream
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 1946
+Depends: libc6 (>= 2.33), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-dpkt (>= 1.9.2), python3-numpy, python3-pandas (>= 1.1.5), python3-psutil (>= 5.8.0), python3:any, python3-cffi (>= 1.14.5)
+Filename: ./python3-nfstream_6.3.5~ds3_arm64.deb
+Size: 377176
+MD5sum: fff270e09872df2d00a7932f3f0dd199
+SHA1: ba794e99c029016b45e369107aa9898badaf9dce
+SHA256: 9ec6e5e532a0182f0252b94a22b2f964e26db6be88adbc4ee63b0958a39df578
+SHA512: 91371fdaf36b8e9e9f48dd6a01a73b84319acc6c3981d30d1a44951e996b1f31d7105c182a7b32287d0c323d56cc7a87b16a87879b89af68cf8f05b585ae115d
+Homepage: https://www.nfstream.org/
+Description: flexible network data analysis framework
+ NFStream is a multiplatform Python framework providing fast, flexible,
+ and expressive data structures designed to make working with online or
+ offline network data both easy and intuitive. It aims to be the
+ fundamental high-level building block for doing practical, real world
+ network data analysis in Python. Additionally, it has the broader goal
+ of becoming a common network data analytics framework for researchers
+ providing data reproducibility across experiments.
+
+Package: raspi-vcgencmd
+Architecture: arm64
+Version: 0~git20230705
+Priority: optional
+Section: admin
+Source: raspi-userland
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 216
+Depends: libc6 (>= 2.34)
+Filename: ./raspi-vcgencmd_0~git20230705_arm64.deb
+Size: 36520
+MD5sum: e6e37ada6c26f2d54ed5a84699dbc462
+SHA1: 25a5b41c2c67e36ea1b0f578f477057195a81ecb
+SHA256: ffc2015f6e54c59bac5907ef7582994d0f37d825a6282d5914a87d91a8a6ec31
+SHA512: 5756ddf2ec60c0a560a6a72d708dc84b1555aa4b6c963071c9ec0620c0ee8d60d59b07c27f0b3e80eb4aee63396be6b1e1e79e11e186f962ecdec1ad4f87bb4f
+Description: VideoCore query tool for Raspberry devices
+ vcgencmd is a command line utility that can get various pieces of
+ information from the VideoCore GPU on the Raspberry Pi.
+
