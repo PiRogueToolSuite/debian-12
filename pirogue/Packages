@@ -51,6 +51,23 @@ SHA512: a3769eca42d694954b1b4a5ecfbb91f47105818e4edb869c3657cb5bc9f6d727fcbb398d
 Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
 Description: Provision PiRogue CLI tool
 
+Package: pirogue-colander-connector
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 45
+Depends: python3-rich, python3:any, python3-colander-client
+Filename: ./pirogue-colander-connector_1.0.3_all.deb
+Size: 7428
+MD5sum: ff55076560f210b2c065b589cfec63d8
+SHA1: 62e0a3df32c1501f0c7ec6924aad7222b41c7857
+SHA256: daff7686f9cf7b35300580257af65a1bc6663703351e35b06cbc63c50a2e2219
+SHA512: b24d6d14c5ff0d10e38c391396dce834eb0ded7cff14f99d50c61beed2611cc667046c4a9c8ea40d0d11f3ccd04294e558860c5717367e3ffae33cf7b9e37fdd
+Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
+Description: CLI interface to transfer data from the PiRogue to Colander.
+
 Package: pirogue-dashboard
 Architecture: all
 Version: 1.1.0
@@ -191,4 +208,21 @@ SHA256: 3fb5b367745b68bde188c5917ee0970752d4a66bdeaca2e62946e707cc99b408
 SHA512: e3ec40cf2eefc4f1fed43ce24ced0c52e5fc6e6249ace034d08e14eb6a0440bb5548491eb7ce3bd71b3f8bd6eca4cbf928074fb02fc49344320c062e03b6fcf3
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue additional tools
+
+Package: python3-colander-client
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 34
+Depends: python3-coreapi, python3:any
+Filename: ./python3-colander-client_1.0.2_all.deb
+Size: 6268
+MD5sum: b3362c326d0b504bde763bce5a4dc380
+SHA1: 1d11bef7365a5355fbf44f867d3dabfee0a01c6c
+SHA256: a3d3b7b0aea9b53b7d27c14f07eae2d5baf15dec720e25b2732d74859115ebab
+SHA512: 9b46b4fffe4e943b17e834588238b3ab53548a88d251763434a7136a669b5da45a4bd00c900ee2bb1c96e7d6a32d27562f7225219251cc2a23e760f39328f0ec
+Homepage: https://github.com/PiRogueToolSuite/colander-python-client
+Description: Colander REST API Python client.
 
