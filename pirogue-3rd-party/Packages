@@ -146,82 +146,161 @@ Description: Distributed time-series database.
 License: Proprietary
 Vendor: InfluxData
 
+Package: python3-adb-shell
+Architecture: all
+Version: 0.4.2-1~pirogue2
+Priority: optional
+Section: python
+Source: adb-shell
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 233
+Depends: python3-cryptography, python3-pyasn1, python3-rsa, python3:any, python3-aiofiles, python3-usb1
+Filename: ./python/python3-adb-shell_0.4.2-1~pirogue2_all.deb
+Size: 27432
+MD5sum: 8976f58657058c35c48776abe969bead
+SHA1: 3b65daa42f4173481a8e1d5d5bf0548a37649602
+SHA256: 42b6443d1bdca3c079e67359f0fd8637263c52030fd53c7a904a429ab763d305
+SHA512: d06cd1e242ffe558cad4b3abddf443b027bcc57ea5b2ab2db0a848c246a51d360082b1987ace7969493878b4db90a8056e1715076cb99f5ab870e6add90b7385
+Homepage: https://github.com/JeffLIrion/adb_shell
+Description: Python implementation of ADB with shell and FileSync functionality
+ FIXME: Long description.
+
+Package: python3-ahocorasick-doc
+Architecture: all
+Version: 2.0.0-1~pirogue1
+Priority: optional
+Section: doc
+Source: ahocorasick
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 11
+Filename: ./python/python3-ahocorasick-doc_2.0.0-1~pirogue1_all.deb
+Size: 4296
+MD5sum: 349b3b78916af58fbd0dbaf443b4779b
+SHA1: cbef9fed76b7197db5dce87dcdb3807f604e9768
+SHA256: e11393bc2c3b37e44f3de9caf54275f48478208b64dd2ababd49dc184c56fd22
+SHA512: 410498a8355b8c2f28f44934f5b833c4ebde146ae8740d3ddc4e509bb53497e837f5fb506c108959190544f5e9559a98564c9a48a6d7823b8963e34a27105554
+Homepage: http://github.com/WojciechMula/pyahocorasick
+Description: documentation for the pyahocorasick Python library
+ This package provides documentation for pyahocorasick.
+
+Package: python3-ahocorasick
+Architecture: amd64
+Version: 2.0.0-1~pirogue1
+Priority: optional
+Section: python
+Source: ahocorasick
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 98
+Depends: python3 (<< 3.12), python3 (>= 3.11~), libc6 (>= 2.14)
+Filename: ./python/python3-ahocorasick_2.0.0-1~pirogue1_amd64.deb
+Size: 31956
+MD5sum: 36eb01eb5512d859c98fb22afa373e2b
+SHA1: 7eb2f9fc86719b77c29e839cad5275ecbe74c927
+SHA256: 4fcfe287afcff246580dfaa9c788f018f5d4d881ead4644b21364dc610c58f9c
+SHA512: da1eee90d324d3088c329db1402857d163850cebeef3b2598b586710c7f605079f231e658a2c80e71e62857048edcd971a53d8b7cd70b4733cad0ecca2697b20
+Homepage: http://github.com/WojciechMula/pyahocorasick
+Description: library for exact or approximate multi-pattern string
+ pyahocorasick is a fast and memory efficient library for exact or
+ approximate multi-pattern string search meaning that you can find
+ multiple key strings occurrences at once in some input text. The
+ strings “index” can be built ahead of time and saved (as a pickle) to
+ disk to reload and reuse later. The library provides an ahocorasick
+ Python module that you can use as a plain dict-like Trie or convert
+ a Trie to an automaton for efficient Aho-Corasick search.
+
 Package: python3-communityid
 Architecture: all
-Version: 1.4-1~pirogue1
+Version: 1.4-1~pirogue2
 Priority: optional
 Section: python
 Source: communityid
 Maintainer: Cyril Brulebois <cyril@debamax.com>
-Installed-Size: 65
+Installed-Size: 64
 Depends: python3:any
-Filename: ./python/python3-communityid_1.4-1~pirogue1_all.deb
-Size: 12860
-MD5sum: b6f7c6c02df8dda55a1c6822d68f61fd
-SHA1: 2e456c217aa66fc89f8d059157f87a4fcc4fd014
-SHA256: 20ab9b1179bc13ce0680bcb6543fa69a2ca164bd84e99e9976894f18bfeba00d
-SHA512: 1ea30cea0461d614c8160db694c796883f661f972eb2bedd9a80a0350025eee5d588d583225af713d16b87ee0fdc50a9d1c58ca0e7b571fd6235cddb95d22c82
+Filename: ./python/python3-communityid_1.4-1~pirogue2_all.deb
+Size: 12872
+MD5sum: e6e019a794f65d1f7e617c66e8ab88f1
+SHA1: 69f6991057ad3c9bb3a46dce794befc9c7069905
+SHA256: 9719e72af142f222d499afd0e5964ad54e8823de476a9f70f6c45f589fd27beb
+SHA512: d1dd281f2bbfa63eae030bd6bc12c314d2843e5b07dd9073fa234aabb0936bb399f2e0eca10b06529ec708b952217d75cd2c9b19e64a4daf6ed881cb83c9fbc7
 Homepage: https://github.com/corelight/pycommunityid
 Description: Community ID flow hashing
  FIXME: Long description.
 
 Package: python3-geoip2
 Architecture: all
-Version: 4.5.0-1~pirogue1
+Version: 4.5.0-1~pirogue2
 Priority: optional
 Section: python
 Source: geoip2
 Maintainer: Cyril Brulebois <cyril@debamax.com>
-Installed-Size: 117
+Installed-Size: 113
 Depends: python3-aiohttp, python3-maxminddb (>= 2.2.0), python3-requests, python3-urllib3, python3:any
-Filename: ./python/python3-geoip2_4.5.0-1~pirogue1_all.deb
-Size: 22048
-MD5sum: ebd192fb5c04f22721e683a276f7eff3
-SHA1: eaa123deb2ec25ee18abc843fd54cefaa67eba7d
-SHA256: ec2e7d3809c24af86c4c64f0e55e4b82b78432ed363d1db31e8b9e93c4164cb4
-SHA512: 621437a747e3eee3a34d880a779d866e0c235aea694dc54b8d777e8978c3b7e7fe2f7f2a1e0194bd969fe31243f54c6ec6c9b7a414190800767eb55b20d99c86
+Filename: ./python/python3-geoip2_4.5.0-1~pirogue2_all.deb
+Size: 21932
+MD5sum: 47628c7faa7ed99233a402383cb2b042
+SHA1: 1d91d580568af376371e92dbb4f45185c2865a03
+SHA256: 7871f70310fdba03ffd9a17f7f2c1556d478b2bbafef99c41e413b8f4e29180f
+SHA512: 1e57dacac3b62cad1b44f247a133c86e96eabd5f1cec86947c024eb2bd57ecb22c770679f5ecdc2143fba7cb06bc8e4583083dbecb1c95de3906dcbc18df0572
 Homepage: http://www.maxmind.com/
 Description: MaxMind GeoIP2 API
  FIXME: Long description.
 
-Package: python3-maxminddb
-Architecture: amd64
-Version: 2.2.0-1~pirogue1
+Package: python3-iosbackup
+Architecture: all
+Version: 0.9.923-1~pirogue2
 Priority: optional
 Section: python
-Source: maxminddb
+Source: iosbackup
 Maintainer: Cyril Brulebois <cyril@debamax.com>
-Installed-Size: 81
-Provides: python3.9-maxminddb
-Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2)
-Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_amd64.deb
-Size: 19688
-MD5sum: 59f4fc05851ec13f3ff8612734caeefd
-SHA1: 27df1b7410a1664129de49af175f65ead9b56490
-SHA256: 55128b53fc7832ba2b0fdcbdc29311346d0dbe258c039d53151954c082c9e029
-SHA512: bbbe4106fd4f52c54805be850f1e0e1bde2f3d74bee95988bafab83c35369d61235c18ce9584c59a7f081d85bdab4a20a5f57ca61cf9666582528499855a5fba
-Homepage: http://www.maxmind.com/
-Description: Reader for the MaxMind DB format
+Installed-Size: 82
+Depends: python3-nskeyedunarchiver, python3-pycryptodome, python3:any
+Filename: ./python/python3-iosbackup_0.9.923-1~pirogue2_all.deb
+Size: 17716
+MD5sum: 0c3c5c427990f77f783aeebc381c4ecb
+SHA1: 91b084fe178e988ee3c851d1bad9a1eede5a46cb
+SHA256: b4aa4898b5cea4fb35c62ed2df689a7338fe462b415808b0f8d01426637137e7
+SHA512: e2293364ecb5348ab4e41734297c0bda393e82e73bdcc55f621dac6dc5d1886e7307c957640cad74d648102890a8a5bbeb7447c630cdffb9d1ebda1ffb8aad39
+Homepage: https://github.com/avibrazil/iOSbackup
+Description: reads and extracts files from password-encrypted iOS backups
  FIXME: Long description.
 
-Package: python3-maxminddb
-Architecture: arm64
-Version: 2.2.0-1~pirogue1
+Package: python3-mvt
+Architecture: all
+Version: 2.4.1-1~pirogue1
 Priority: optional
 Section: python
-Source: maxminddb
+Source: mvt
 Maintainer: Cyril Brulebois <cyril@debamax.com>
-Installed-Size: 76
-Provides: python3.9-maxminddb
-Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libmaxminddb0 (>= 1.0.2)
-Filename: ./python/python3-maxminddb_2.2.0-1~pirogue1_arm64.deb
-Size: 19580
-MD5sum: 572e472ba45ae7f28510277816448500
-SHA1: 251e5e7ebcfb0a0fee100a34afde493416ac2b3d
-SHA256: d7fb8d0c742aec2ae791a4277e4b3b0f5efe7c40b5d0cb1ba683e2952cc31ef2
-SHA512: 104ac5c9a6ba6988ef5eddd32c94617f4e6eb7050d2f8ec4d8e9d0fca100132544a96325b8275398d1dd58915108a6473ff3c0df4846e23cad636cb7f0ee5b9b
-Homepage: http://www.maxmind.com/
-Description: Reader for the MaxMind DB format
+Installed-Size: 584
+Depends: python3-adb-shell, python3-ahocorasick, python3-appdirs (>= 1.4.4), python3-click, python3-cryptography (>= 38.0.1), python3-iosbackup, python3-packaging, python3-requests, python3-rich, python3-simplejson, python3-tld, python3-usb1, python3-yaml, python3:any
+Filename: ./python/python3-mvt_2.4.1-1~pirogue1_all.deb
+Size: 71396
+MD5sum: 8f958be002bf716fbcf0659ccf195c23
+SHA1: 04ece4db192b756d8c4724ced5a377deb17cb8c4
+SHA256: 75e790f1b3f296d7f2af866ff5895f3ad9bed811f9eea2476a071004b5255f33
+SHA512: c1453052429a6e4e580f8226c9519aa8ddae9b1b29ce767022bc1c89d38bcd15069cd0e29b40f3754b6cc5fa2da9f3219bf69ea72395ebd0700ae68dbcf04b38
+Homepage: https://github.com/mvt-project/mvt
+Description: Mobile Verification Toolkit
+ FIXME: Long description.
+
+Package: python3-nskeyedunarchiver
+Architecture: all
+Version: 1.5-1~pirogue2
+Priority: optional
+Section: python
+Source: nskeyedunarchiver
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 25
+Depends: python3:any
+Filename: ./python/python3-nskeyedunarchiver_1.5-1~pirogue2_all.deb
+Size: 4412
+MD5sum: eb801fe43c47d06d5f0bfae3a7e7eb6c
+SHA1: 842d8b8bb76a59876235d7b1b429d359895b670f
+SHA256: dce0bb8c227cae5b76b2029c31deb212c9c592e2f738029b6f86d7d8b73a0e99
+SHA512: 3262cb3687c80ddb9e765a92862bb2b267be43c24d9c436a0d55d5a3ba399169f085d5ad9e4a2a87d5d9e96a740914ec2529809cfe5b71ba2a58cf15651415d7
+Homepage: https://github.com/avibrazil/NSKeyedUnArchiver
+Description: decodes Apple's NSKeyedArchiver
  FIXME: Long description.
 
 Package: python3-nfstream
