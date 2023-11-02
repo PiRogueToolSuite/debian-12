@@ -1,6 +1,3 @@
-> **Warning**
-> This repository is currently work in progress, preparing the migration from Debian 11 to Debian 12.
-
 ## Configure the PiRogue repository for Debian 12
 
 To install PiRogue packages repository on your fresh Debian 12 installation, execute the following command in a terminal:
