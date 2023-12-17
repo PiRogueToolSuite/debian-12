@@ -1,3 +1,11 @@
+<div align="center">
+<img width="60px" src="https://pts-project.org/android-chrome-512x512.png">
+<h1>PiRogue PPA for Debian 12</h1>
+<p>
+This PPA contains all the Debian packages to be installed on PiRogue OS to turn a Raspberry Pi into a PiRogue. Want to build one? Follow the guide "<a href="https://pts-project.org/guides/g1/" alt="How to setup a PiRogue">How to setup a PiRogue</a>".
+</p>
+</div>
+
 ## Configure the PiRogue repository for Debian 12
 
 To install PiRogue packages repository on your fresh Debian 12 installation, execute the following command in a terminal:
