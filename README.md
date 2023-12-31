@@ -17,7 +17,7 @@ sudo apt update
 ```
 
 ## Installation on Raspberry Pi
-Check the corresponding [documentation on PTS's website](https://pts-project.org/docs/pirogue/build-a-pirogue/).
+Check the corresponding [documentation on PTS's website](https://pts-project.org/guides/g1/).
 
 ## Installation on a regular PC
 Check the corresponding [documentation on PTS's website](https://pts-project.org/docs/recipes/turn-a-regular-pc-into-a-pirogue/).
