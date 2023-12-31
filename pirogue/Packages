@@ -17,6 +17,25 @@ SHA512: 052d5b5b94ff6102f8784ef035bcf3a94c862d27fe544a971b9ed471990d9ad4e5766c95
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
+Package: pirogue-ap
+Architecture: all
+Version: 1.1.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 35
+Provides: pirogue-network-routing
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill, dhcpcd5
+Conflicts: pirogue-network-routing
+Filename: ./pirogue-ap_1.1.1_all.deb
+Size: 5784
+MD5sum: 192c0efcdb9ce63dea269a39edd39849
+SHA1: abd3f6d8c5850e76364903bea4b03a1247c17409
+SHA256: 649c63120b390eccabdea93387d5104d24dfa78c241d319caed3a0127bc71060
+SHA512: 59b81fd23c7bb471c7e686eb69d8ea66d1ab466e4d6e9c0138d8169fb030b61c10321aa54c5ce111d49186e1b287879bd4ee280348e1bdcd2af79c4490f98a0b
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install PiRogue wi-fi AP configuration
+
 Package: pirogue-base
 Architecture: all
 Version: 1.1.0
