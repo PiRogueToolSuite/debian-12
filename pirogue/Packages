@@ -171,6 +171,22 @@ SHA512: 0b761623b1c9b62df1c81fd08d2880c2660a638d4cb522bb52372a58e106b1e132222c01
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Automatically detect the hardware configuration during PiRogue installation
 
+Package: pirogue-hardware-detection
+Architecture: all
+Version: 1.1.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 123
+Filename: ./pirogue-hardware-detection_1.1.1_all.deb
+Size: 14088
+MD5sum: 26d251c445f7e0bdfa6644cacaab52af
+SHA1: f54c5f315bb1770a860ec6cfddcbf2c9d4a21090
+SHA256: bdc9e66ee6b33081439183e8860e61479e9d2d8e8da48cd3ea2775590fef3da6
+SHA512: c4d793f908eb1f2288f23fd765828017e3636ad353b1e77a10e73555af381df02ab3f7ab75f79469c0b2b5afb8d242e7a1ae732fe2c8470b4d6c073dee64ea92
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Automatically detect the hardware configuration during PiRogue installation
+
 Package: pirogue-hat
 Architecture: all
 Version: 1.1.0
