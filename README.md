@@ -6,6 +6,13 @@ This PPA contains all the Debian packages to be installed on PiRogue OS to turn 
 </p>
 </div>
 
+## Package sources
+All the sources of the packages distributed by this PPA are available at:
+- https://github.com/PiRogueToolSuite/deb-packages
+- https://github.com/PiRogueToolSuite/pirogue-cli
+- https://github.com/PiRogueToolSuite/pirogue-colander-connector
+- https://github.com/PiRogueToolSuite/deb-python/tree/debian-12
+
 ## Configure the PiRogue repository for Debian 12
 
 To install PiRogue packages repository on your fresh Debian 12 installation, execute the following command in a terminal:
