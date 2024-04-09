@@ -278,6 +278,23 @@ SHA512: e12448b599a2c56fa49ad1b3a64c7868f7415bba4db055bb44aa13ac9c0882f5cd85ccbe
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue 240x240px ST7789 screen driver
 
+Package: pirogue-telemetry
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 45
+Depends: python3:any, python3-requests, python3-influxdb-client
+Filename: ./pirogue-telemetry_1.0.0_all.deb
+Size: 7164
+MD5sum: 70cbd3b9d04786bd594f5747a6ae9ab7
+SHA1: 433113377c34a3a8f7e81800def98f21f8b1ad06
+SHA256: 9bae201f7ff10b046528bb59d204d18bd273bb26cb0196ce9f728539c13a5b23
+SHA512: 53fd83e478662351c8061b51a87febcda39bb8970c9dfaa1faa294e6184fba1c26da7d697520be40b368b916fe7d0d26745d00e7f9e822dd34c69d51482d12eb
+Homepage: https://github.com/PiRogueToolSuite/pts-telemetry
+Description: Install the privacy-preserving telemetry system for PiRogue
+
 Package: pirogue-tools
 Architecture: all
 Version: 1.1.0
