@@ -122,6 +122,23 @@ SHA512: e0278dd7f2650fa408b0f5438ec9da40201181216c53aa77b625f5974c7e55467b3e1e65
 Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
 Description: Provision PiRogue CLI tool
 
+Package: pirogue-cli
+Architecture: all
+Version: 1.1.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 203
+Depends: python3:any, python3-requests, python3-rich, python3-psutil, python3-semver, python3-pydbus, python3-libusb1, python3-netifaces, python3-yaml, python3-gi, python3-communityid, adb, frida, tshark, tcpdump
+Filename: ./pirogue-cli_1.1.3_all.deb
+Size: 30964
+MD5sum: 640f1fdc080b1a9d53543b4bb7cc315e
+SHA1: fbd49f0914cd764a9cb233bc56f8c65dfa0a4225
+SHA256: 645858eb46f3de388683eca2f417a633803e84d038c11bdc6a9c24a27a38e1ab
+SHA512: 00483403c022a916447a0ed55be8d7443f3258cc9ed184b39444bbad4ef64ee640a53a88c6bb44e6b09979c5024d112424b323625d755b7f5329e2af1735e50d
+Homepage: https://github.com/PiRogueToolSuite/pirogue-cli
+Description: Provision PiRogue CLI tool
+
 Package: pirogue-colander-connector
 Architecture: all
 Version: 1.0.3
