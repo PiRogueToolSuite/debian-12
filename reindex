@@ -1,0 +1,70 @@
+#!/bin/sh
+set -e
+
+# Configuration/usage:
+KEYRING=pirogue.gpg
+TARGETS="$*"
+if [ "$TARGETS" = '' ]; then
+  TARGETS='pirogue pirogue-3rd-party'
+fi
+
+# List known signing keys:
+pirogue_keys=$(
+  gpg --no-default-keyring --keyring "$(pwd)/$KEYRING" --export \
+    | gpg --show-key --with-colons --keyid-format=long \
+    | grep -A 1 ^pub \
+    | grep ^fpr \
+    | awk -F: '{print $10}'
+)
+
+# List local keys:
+local_keys=$(
+  gpg --list-secret-keys --with-colons --keyid-format=long \
+    | grep -A 1 ^sec \
+    | grep ^fpr \
+    | awk -F: '{print $10}'
+)
+
+# Any key in the intersection is fine:
+signing_key=
+for pk in $pirogue_keys; do
+  for lk in $local_keys; do
+    if [ "$pk" = "$lk" ]; then
+      signing_key=$lk
+    fi
+  done
+done
+if [ -z "$signing_key" ]; then
+  echo "E: Found no local keys matching PiRogue keys"
+  echo
+  echo "PiRogue keys:"
+  for key in $pirogue_keys; do
+    echo " - $key"
+  done
+  echo
+  echo "Local keys:"
+  for key in $local_keys; do
+    echo " - $key"
+  done
+  exit 1
+fi
+
+for target in $TARGETS; do
+  echo "I: Indexing $target"
+  cd "$target"
+
+  # Forget old indices:
+  rm -f Packages* Release*
+
+  # Better be safe than sorry, apt can be unhappy with just an uncompressed
+  # file:
+  apt-ftparchive packages . > Packages
+  gzip -9n -k -f Packages
+
+  # Use a temporary file to avoid (broken) self-indexing:
+  apt-ftparchive release . > Release.tmp
+  mv Release.tmp Release
+
+  gpg --local-user "$signing_key" --armor --detach-sign --output Release.gpg Release
+  cd ..
+done
