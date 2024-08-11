@@ -19,7 +19,7 @@ To install PiRogue packages repository on your fresh Debian 12 installation, exe
 
 ```
 sudo curl -o /etc/apt/sources.list.d/pirogue.list https://pts-project.org/debian-12/pirogue.list
-sudo curl -o /etc/apt/trusted.gpg.d/pirogue.asc   https://pts-project.org/debian-12/Key.gpg
+sudo curl -o /etc/apt/trusted.gpg.d/pirogue.gpg   https://pts-project.org/debian-12/pirogue.gpg
 sudo apt update
 ```
 
