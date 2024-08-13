@@ -36,6 +36,25 @@ SHA512: 59b81fd23c7bb471c7e686eb69d8ea66d1ab466e4d6e9c0138d8169fb030b61c10321aa5
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
+Package: pirogue-ap
+Architecture: all
+Version: 1.1.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 35
+Provides: pirogue-network-routing
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill
+Conflicts: pirogue-network-routing
+Filename: ./pirogue-ap_1.1.2_all.deb
+Size: 6584
+MD5sum: 72772b952732764bca2a6a1ee7982db9
+SHA1: 1d3daa1f33a9c0044475d18cff1eaf96958e90ab
+SHA256: b13d74a21e5eb3ca373b3fc2a336539b84322ad7a42ff1b393d39a583053b0d5
+SHA512: 05997b597bb46ec31a799f24f5b45a4011c865b0f143148a469e4c2d49be9679dc50dedc76fb54486bb88c29456248855598e391f1e57497f461e0cd0450e311
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install PiRogue wi-fi AP configuration
+
 Package: pirogue-base
 Architecture: all
 Version: 1.1.0
@@ -187,6 +206,23 @@ MD5sum: 7a66e28fa2a3655b1597ef04d3e5a2ed
 SHA1: 305e395e99bb9044f0aa49f5d0e03f868cf5db38
 SHA256: 3ae78851be921e57e6cafe48a7aafe28f3159e16093d54d355436c38f814e450
 SHA512: 4937c6ee6917fe2f615c8ad1b9936daa1acf33402df7ce13c74c5551d8eb2244f0eb7979f845666505a08a5c59cab11ed8bbd10dbcdb36d7053523aaf6e27b5d
+Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
+Description: CLI interface to transfer data from the PiRogue to Colander.
+
+Package: pirogue-colander-connector
+Architecture: all
+Version: 1.0.6
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 45
+Depends: python3-rich, python3:any, python3-colander-client
+Filename: ./pirogue-colander-connector_1.0.6_all.deb
+Size: 8028
+MD5sum: 217e4be0e118ddf1374eb0afa7fa79c2
+SHA1: 8e8940be2124d3ae240d1063cc8d42c2e1f5ed55
+SHA256: 90014496ea568e66b1b1f5e0b53a7c7f285efa583b1b5c5a6f4b980436de9b58
+SHA512: 11a40a167ac26f06c128af71862332103e41e74c468c0f1ac317e3798b7ccf454f5672f8f3739576e55212c22374a9a3b75c4684b9d3d1a6660e4c6d081a211e
 Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
 Description: CLI interface to transfer data from the PiRogue to Colander.
 
@@ -412,6 +448,23 @@ MD5sum: 8e21af801daa30112290cee0f36910d6
 SHA1: bde2b433b386b1760ee9e87e9d7311e04692aa02
 SHA256: bd141c61c259393ea5c9d4315ceab8b68b5e9fb11878333ce512ce61bcfeb075
 SHA512: 46081ee21bf88b50c076a5868dc07fb9e11c1e2db2da9e48c9ff3c6c8a091e0935e2de55e6d41b5a6a4919e933b581846091a05a66abaca191268687ae2efbcc
+Homepage: https://github.com/PiRogueToolSuite/colander-python-client
+Description: Colander REST API Python client.
+
+Package: python3-colander-client
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 51
+Depends: python3-coreapi, python3-deprecated, python3:any
+Filename: ./python3-colander-client_1.0.4_all.deb
+Size: 8560
+MD5sum: ee412e3fc04cc3080f536af7a35317e5
+SHA1: 4667a0a9921ca7b4554685e254f8024e9c35f4e4
+SHA256: b0c24446a404986a0ac07b80f77241dc6f47acd94b651f1addfc22cdcb6b6039
+SHA512: a6def3511fb6ef5afc04c3c9a164a5f095733d37d8f0ea1e31865ce9de25e6cc2d9b1ac8f14d984adbb9d0c342af19d8aba1105be74c8184326bf85b622808f0
 Homepage: https://github.com/PiRogueToolSuite/colander-python-client
 Description: Colander REST API Python client.
 
