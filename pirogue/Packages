@@ -1,3 +1,23 @@
+Package: pirogue-admin
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 84
+Depends: python3-yaml, python3:any
+Filename: ./pirogue-admin_1.0.0_all.deb
+Size: 18644
+MD5sum: 91254ad9eb54a454ca3f165b6f6966f5
+SHA1: 0296d4a4f6b12e0f5822f43495ae6211e1e872a0
+SHA256: 716a46641af8ee884e5851f3dfa5404702dc949e9e1aec5ff681578c2b89cfcd
+SHA512: 9a0534dc4cfc78b57fe9ccb2e46c3ddbc356f8b2d288d8da292ecf2894be9470ca588ebba5bbf017f8b5b09b0706a21c6f355906e27f711b7649048a71d8a4a0
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration tool
+ This package features autodetection to facilitate PiRogue's deployment, and
+ coordinates configuration file updates alongside relevant service restarts
+ whenever the configuration is updated.
+
 Package: pirogue-ap
 Architecture: all
 Version: 1.1.0
@@ -55,6 +75,23 @@ SHA512: 05997b597bb46ec31a799f24f5b45a4011c865b0f143148a469e4c2d49be9679dc50dedc
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install PiRogue wi-fi AP configuration
 
+Package: pirogue-archive-keyring
+Architecture: all
+Version: 0.1
+Priority: optional
+Section: utils
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 17
+Filename: ./pirogue-archive-keyring_0.1_all.deb
+Size: 6458
+MD5sum: 0d7e281d2c633fec32f2025f82cdfc76
+SHA1: 974879a1cd7c4e100e262fd5fbbfa70bb813b5b4
+SHA256: 99a3babbbb0e005798a7de09626e7758ba1f7ba84c9624e8ac6952a99602fc1c
+SHA512: 9680c5aff1643cc67e0c9e3302f16228af45921ba624074f9ceee5dc333b0342e8f83745c9d48465eb1914bff7c940cdac9b6a65834e564e9b403175362f02be
+Description: GnuPG archive keys for the PiRogue repository
+ The PiRogue repository is digitally signed, and the corresponding public keys,
+ required by APT, are available in this package.
+
 Package: pirogue-base
 Architecture: all
 Version: 1.1.0
@@ -87,6 +124,24 @@ MD5sum: 207433306b8815e3ee2cc54bf8fddb5a
 SHA1: a8fee483c3f7d27056ccb987e8ca7c6251ca1647
 SHA256: e31df89e038f2245f8f5bf6bfea962d249479b09ce63df74a81bf6a607a10e80
 SHA512: c7131823c84a2f4212a42cd5b9c948e1fe8f8c87452ecced53ec7c5ac629d79c914dad5da3783f771ac3bba1d217b4478a0f1dcc42827ce7f97dd810393d210a
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue packages
+
+Package: pirogue-base
+Architecture: all
+Version: 1.1.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 9
+Depends: python3-pip, python3-systemd, pirogue-cli, pirogue-tools, pirogue-ap, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen, pirogue-archive-keyring
+Recommends: pirogue-telemetry
+Filename: ./pirogue-base_1.1.2_all.deb
+Size: 2320
+MD5sum: 43bff8269abb604de5d5265cd433e2f6
+SHA1: 88bdc2f684bc578ad7d5877630d8c0cd7d000c3c
+SHA256: e748e3ea2f6d4a9ff10072db597df1eceaea37e5db5996cc99d3316568d482b0
+SHA512: a99889fdc71673e19783b9d3fa072362dc3dae4e5b982d382d7bba3408bfffa4e49b9e27052b24e5ffaeb84cc814465a878dfc42d4699bf22e12f0654237b5f2
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
