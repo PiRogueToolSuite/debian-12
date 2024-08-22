@@ -332,6 +332,23 @@ SHA512: 7dcfcd98eee1ee320d7683856784b2dd795d26339c8b5516d5b7ce04585ad1130029002e
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
+Package: pirogue-eve-collector
+Architecture: all
+Version: 1.1.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 85
+Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
+Filename: ./pirogue-eve-collector_1.1.1_all.deb
+Size: 22664
+MD5sum: 6271c58fb02bb027380d4e2550efcb82
+SHA1: e25e18dafdd38cca9fd3647ea928faff7b327092
+SHA256: 22c7f897d17f37625e5a7c57262022f0960e8e9cbf3b8e0482f2df6c3a39afdf
+SHA512: 74e7769038d32f0dab3b574008f4c5a939c4c06c8d8161a988d49d23a69f1d23f2a2dc38ab38299a2fc059351aee7cb92879e5e22b85ada2fc7c4e944d3f1c0b
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue Suricata alarm collector
+
 Package: pirogue-flow-inspector
 Architecture: all
 Version: 1.1.0
