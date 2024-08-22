@@ -538,10 +538,10 @@ Installed-Size: 35
 Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill, nftables, wireguard-tools
 Filename: ./pirogue-networking_1.1.3_all.deb
 Size: 7048
-MD5sum: 847ee7d102465dc07fdf8962caee88a8
-SHA1: cb175559ad9fec7a73a06bc5a74357b05162cfdf
-SHA256: d2b2621842ce3304ee283958b37167dc18c9bf7ab2c8dc6cbc89f2496f52b424
-SHA512: 7a4da31bb52741259341c0961366ec64fa039ef50b99daf040c8f590297d4da6426cf09bd8b01f0d87de49da73bf08e1df2f38f6854b238428c0fee2049fa342
+MD5sum: c25d03d9629639fe3632344fcf84e6d0
+SHA1: c2ac9b9ab09590675c6e528bcfbbe097d9d201dc
+SHA256: 063ea298e5afc168dcfd9725005b3d8f9215066fcec2546351d7437c6e416c1d
+SHA512: 942dd43258e3f0c90f35d970afa4ad55ddd3e281d5d056f909e3eaf064654144c8f8c6ce020911b682f2af4495ea5992d6d495d3c03cbb9604abfff9c358b694
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Configure networking components for the PiRogue
 
