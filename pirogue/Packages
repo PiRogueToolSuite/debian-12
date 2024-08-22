@@ -64,14 +64,14 @@ Version: 1.2.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 120
+Installed-Size: 119
 Depends: python3-requests, python3-yaml, qrencode, python3:any
 Filename: ./pirogue-admin_1.2.0_all.deb
-Size: 26060
-MD5sum: 5252f321f953931f8ee668c9a31d3627
-SHA1: e4141aee0cc7e3446f2a382793a59ba82ee862ed
-SHA256: aa0e3096892c2e6d21ac70defa4eb174ab15a7ff93c4dc9c23327770871a0c0d
-SHA512: 8d83d046635dd89b48b4e067b870d8cb07b99391c0a08c0fc1d61fa7c9945a0222ed2cafbe34efc33dea0642e870ebf6d778ed55bd002d73f505b3aa6425e5fe
+Size: 25948
+MD5sum: ece29d2783bb6cab7187ad8252fbb0f0
+SHA1: f9a5bb77ba17a3dae1b833177f0f753cd3da588e
+SHA256: 955fad5bee7ac92a60c0cfe34a7f58a741fb71fa0ec07b7f592998d70d6679fc
+SHA512: dc45397b63b6b4f11974434045b95c961ded63198c76c336f7ee9b6f1409df6f02fbf211a4c2f428084bfb2f7b556e7a1aa81ae2a2bbbd35b037b26b41421b79
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: PiRogue administration tool
  This package features autodetection to facilitate PiRogue's deployment, and
