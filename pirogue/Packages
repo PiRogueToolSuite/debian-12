@@ -545,6 +545,23 @@ SHA512: 24f006660d0d78aa95aed69443e463ec85c7898a47c75fc0c6522e2fdfe477cc6aef7d09
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Configure networking components for the PiRogue
 
+Package: pirogue-networking
+Architecture: all
+Version: 1.2.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 35
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill, nftables, wireguard-tools
+Filename: ./pirogue-networking_1.2.0_all.deb
+Size: 7376
+MD5sum: f6c0baded7ea50f2102aeefce243cc4d
+SHA1: 74fb7382d27f299fc055f71f79a6bc33ff903b98
+SHA256: ffed73758f8ac13fcdf7887be443f0542c3b855d0e7304efff2233fd20ff503c
+SHA512: c7bb8e4bc49f5d8ec6206f92494c66f79687221878e656a2a057308ef977940ce0f1d6a73f91c04da14a32601068a2ab43323f0aea406d92733f649bf3c3baec
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Configure networking components for the PiRogue
+
 Package: pirogue-screen-st7789-240x240
 Architecture: all
 Version: 1.1.0
