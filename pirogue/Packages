@@ -154,54 +154,19 @@ Description: GnuPG archive keys for the PiRogue repository
 
 Package: pirogue-base
 Architecture: all
-Version: 1.1.0
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 9
-Depends: python3-pip, python3-systemd, pirogue-cli, pirogue-tools, pirogue-ap, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen
-Filename: ./pirogue-base_1.1.0_all.deb
-Size: 2188
-MD5sum: ebb55297c94e7111abb3e74d47474ab7
-SHA1: 2569eca346e3cab4536f7b13665bc74005e741f6
-SHA256: 96bb6958e8ead70055e98d8f594056490d01fff81e867534038aa3dcae330353
-SHA512: fd9cc6e4b09358d1e03e48cab15eec516375f272ee47a5bcfd45a8e9b2b53ac91e827e8abf1aada09a46eba915f3fda5a9c64f33900f991aae3bdf76c5dbff64
-Homepage: https://github.com/PiRogueToolSuite/deb-packages
-Description: Install all PiRogue packages
-
-Package: pirogue-base
-Architecture: all
-Version: 1.1.1
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 9
-Depends: python3-pip, python3-systemd, pirogue-cli, pirogue-tools, pirogue-ap, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen
-Recommends: pirogue-telemetry
-Filename: ./pirogue-base_1.1.1_all.deb
-Size: 2232
-MD5sum: 207433306b8815e3ee2cc54bf8fddb5a
-SHA1: a8fee483c3f7d27056ccb987e8ca7c6251ca1647
-SHA256: e31df89e038f2245f8f5bf6bfea962d249479b09ce63df74a81bf6a607a10e80
-SHA512: c7131823c84a2f4212a42cd5b9c948e1fe8f8c87452ecced53ec7c5ac629d79c914dad5da3783f771ac3bba1d217b4478a0f1dcc42827ce7f97dd810393d210a
-Homepage: https://github.com/PiRogueToolSuite/deb-packages
-Description: Install all PiRogue packages
-
-Package: pirogue-base
-Architecture: all
-Version: 1.1.2
+Version: 1.2.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 10
 Depends: python3-pip, python3-systemd, pirogue-admin, pirogue-cli, pirogue-tools, pirogue-networking, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen
 Recommends: pirogue-telemetry
-Filename: ./pirogue-base_1.1.2_all.deb
-Size: 2732
-MD5sum: 4fbe6007bdd73aeff7c9b8cb9cb07848
-SHA1: aea602a0f39749ada784de24b8caba6755587a1e
-SHA256: d4ea6c0e8b8645d1efb4027dfa60ea3f4fc3bd17e271e09e18cb6eaafd61f369
-SHA512: 241553e80346a076923309f5ef91127bce38f7463730e3decadc071961411075137645bbeff72dd2310f1399fe57ce2ceb1243c33b451083b7d18586173d7040
+Filename: ./pirogue-base_1.2.0_all.deb
+Size: 2728
+MD5sum: a599a8a3266532859a6b6cf73389f7e0
+SHA1: b9378ae5de9d4878678c552548dc1c3469b1ad2a
+SHA256: d6767fbb96b70e2c5d72e52e511dc72a84801ef06107a3056241996eac3e0f8e
+SHA512: 8a51cc30d4ca561f3c15a554297f125ae16f6b0cc6fb054851675e99ff500d425774814d240071fcc1f0102b0b2181a7413f07b35a4106658029f0246b8f0c12
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
@@ -343,120 +308,52 @@ Description: CLI interface to transfer data from the PiRogue to Colander.
 
 Package: pirogue-dashboard
 Architecture: all
-Version: 1.1.0
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 127
-Depends: grafana, influxdb
-Filename: ./pirogue-dashboard_1.1.0_all.deb
-Size: 19488
-MD5sum: eec47447d2195fcddd765cfac3e475da
-SHA1: fed0483e74bdf6fdcc77e94b70d73d9434f7cfd6
-SHA256: fc7dfcef76695377aec30fdd7eae07c880f613d6e8ed936880e366754606c6f5
-SHA512: 72537e48ad9fdf4b01b531e5e1fe47c554a8dee2dbef09948f0c2141fbd3d1dfb3e7092e4a5be9acd54c0bcdfe4cb48a3014b95953be3e295dec35de533db20e
-Homepage: https://github.com/PiRogueToolSuite/deb-packages
-Description: Provision PiRogue dashboards
-
-Package: pirogue-dashboard
-Architecture: all
-Version: 1.1.1
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 127
-Depends: grafana, influxdb
-Filename: ./pirogue-dashboard_1.1.1_all.deb
-Size: 19536
-MD5sum: c06592514446b5d099e875e9c7e0fd93
-SHA1: b8d58244bfe94acf0af681049fd3c1bc8d8c3d08
-SHA256: 61e3953675caf14e0b093805a2a09792b768fc0973a3af47cb63235fcfcbcf68
-SHA512: 446ebea3885602daf7f5c1ccc8694c225a495c6b65d2168856991fede80cdab58ae39d0dc56595fbc340af10502bb1dd0ee2490873f7348198df80937ed80270
-Homepage: https://github.com/PiRogueToolSuite/deb-packages
-Description: Provision PiRogue dashboards
-
-Package: pirogue-dashboard
-Architecture: all
-Version: 1.1.2
+Version: 1.2.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 118
 Depends: grafana, influxdb
-Filename: ./pirogue-dashboard_1.1.2_all.deb
-Size: 20016
-MD5sum: 6b9cdbbeb2574b2a3ab0ab7e8cadf375
-SHA1: 1ca1467bb6c7458f9895d612981c9eb7bb358c16
-SHA256: fab73d708e3e558317ebc26032d9e3dbc9aa7a74515f63646596af4d6ef9512b
-SHA512: 2d97e39279007050edc205743963feee6fb8871610f39ef557a93421f391e31c706a9e21c2eb9672590cca418093153ac175cbaa1883c6dee9abf36ec05afa19
+Filename: ./pirogue-dashboard_1.2.0_all.deb
+Size: 20008
+MD5sum: 82423e948a18e9dcc563a0179cdc56f4
+SHA1: b756e1ffc4b363ea3a3f2254de24e6f9758809b2
+SHA256: f39fd5a3fb75a13f45875b4b75fc24f605d9cdc09f7463e11137345a7c0004a0
+SHA512: 2522f1d5b8daf16b4eddbe120fd821a8d0325a33952f705fb1de4768bb35d3ce4597b615c17b57aec393c3d14aafce5e9c98236439c56f810406fe4bb8d7b2ba
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
 Package: pirogue-eve-collector
 Architecture: all
-Version: 1.1.0
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 85
-Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
-Filename: ./pirogue-eve-collector_1.1.0_all.deb
-Size: 22632
-MD5sum: fefe52c3f3ddef6ab3fd3a0f1ab8a73a
-SHA1: f1a223557a12abbaab43c858abfdf86d6949943a
-SHA256: ac50e94569843e5578f8b2add54784965360c83ef13762a99b896d9b0f64df8d
-SHA512: 7dcfcd98eee1ee320d7683856784b2dd795d26339c8b5516d5b7ce04585ad1130029002e3d9c33c2dfffa76f0fca22f56d961cc9956abfbfe589b6311816778c
-Homepage: https://github.com/PiRogueToolSuite/deb-packages
-Description: Provision PiRogue Suricata alarm collector
-
-Package: pirogue-eve-collector
-Architecture: all
-Version: 1.1.1
+Version: 1.2.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 86
 Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
-Filename: ./pirogue-eve-collector_1.1.1_all.deb
-Size: 22796
-MD5sum: 5bdba87fad9b4cb3efbdb1b94cf981ad
-SHA1: 540cca3c4741c068449b1d95e7c4dae8e3be3a46
-SHA256: aae0c75c192b31d7c02da585d51d10300c7f5a80968b0bc93ba0435fe3f3996b
-SHA512: c8063cba09cf0c92991ea0e95acad305d9d3022ab1ff11652205222af83c3dfae1017b36a369f11093105e7a703f76d16c1afd0468b1358771fc1d4dc150aa48
+Filename: ./pirogue-eve-collector_1.2.0_all.deb
+Size: 22792
+MD5sum: 72add4f12cd4283c508e4012d8fd320b
+SHA1: 24fcae47eaeceb9fc84512ace261b97028005035
+SHA256: b68953cbff80116897af415392eedf3397efd1a20cc17b765a7995bd112e6b23
+SHA512: 3cb80542ac3f684cfdf14ceea1e4ebdc3b9a04c8919b46bef5c4f229e9f1d0878cb1984bed606a5860aa9b28a0a77eca361bc0d8b50ae478476b62f9c6777d39
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
 Package: pirogue-flow-inspector
 Architecture: all
-Version: 1.1.0
-Priority: optional
-Section: misc
-Maintainer: U+039b <hello@pts-project.org>
-Installed-Size: 66756
-Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd, python3-netifaces
-Filename: ./pirogue-flow-inspector_1.1.0_all.deb
-Size: 21560128
-MD5sum: b943fa28cbea193af0732e6b072a3621
-SHA1: e2c8ab04b69a1a5aee394cf9f7dfee6f5685c80b
-SHA256: d0669cb4e66fe8863a3e07192ecae1777095f0207f833359520f4c86456a380d
-SHA512: 2b1f94431be6c30605151e8f3cbcda60e0a4b09e042a2ca8b9e9b2a8d867a3b5980b04a17b52ca91c401b957e68e3100ab5a375510714cb3ca46fbebe83bad6c
-Homepage: https://github.com/PiRogueToolSuite/deb-packages
-Description: Provision PiRogue DPI
-
-Package: pirogue-flow-inspector
-Architecture: all
-Version: 1.1.1
+Version: 1.2.0
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 66758
 Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd, python3-netifaces
-Filename: ./pirogue-flow-inspector_1.1.1_all.deb
-Size: 21561412
-MD5sum: 29a9e69541263bb359b41916ba0a7037
-SHA1: e4d58659f28a977f806f3c8c0a2853fb9d4b425b
-SHA256: 0d9675ef1f4f5976a19e2a78673b515175845aa389515b6470237eaa279d517f
-SHA512: b82c8695dd18856e014d6a4721dd1ad5a76ae18500d35969922709017a08df93ff8263dca88762ccba665b68cc6f86a955ffda97a8163b830cbc8d0a57245cda
+Filename: ./pirogue-flow-inspector_1.2.0_all.deb
+Size: 21560868
+MD5sum: 7540b5f5cf8745c89d9b6dd1e4b829e2
+SHA1: 8a13956657cb61f314a41a7e34d076e4412334e9
+SHA256: d3f9f4626181fb8e54e7d6495a0c85e636eea7e7677775212e38b08ad6a9e6e3
+SHA512: dba0e2375d65f7a048f4c82206a21f9fb729e7ff162174979f400abbc147930070b2e5e28af21c5e92b4c428766f45c29372aa350b67a188c6aef32878d7e67a
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 
