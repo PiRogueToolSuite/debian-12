@@ -342,10 +342,10 @@ Installed-Size: 85
 Depends: python3:any, suricata, influxdb, chronograf, python3-influxdb, python3-systemd
 Filename: ./pirogue-eve-collector_1.1.1_all.deb
 Size: 22664
-MD5sum: 6271c58fb02bb027380d4e2550efcb82
-SHA1: e25e18dafdd38cca9fd3647ea928faff7b327092
-SHA256: 22c7f897d17f37625e5a7c57262022f0960e8e9cbf3b8e0482f2df6c3a39afdf
-SHA512: 74e7769038d32f0dab3b574008f4c5a939c4c06c8d8161a988d49d23a69f1d23f2a2dc38ab38299a2fc059351aee7cb92879e5e22b85ada2fc7c4e944d3f1c0b
+MD5sum: 58c0c3cc204307992e921d99bf82db06
+SHA1: 7dc2d5a2aeafe685137a9f61e78c45a7c7884312
+SHA256: 286e21d331de2b5633f25438697030c9e05cbcc48d3beb7508e2dab06bb42c3e
+SHA512: ba7588dc33975aab6e2d5af5cdbb60a948b6168feafa7d8dbae202da2e31de966a406a4c0237f8b478f5eb406038010568e276111ee1134d8b305838fefd79dd
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
