@@ -420,6 +420,23 @@ SHA512: f6759f6c9cc421fdbdd3e34f0815f9c47ace32f81dad9d65791568d28856a6b8ca003298
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
+Package: pirogue-dashboard
+Architecture: all
+Version: 1.3.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 119
+Depends: grafana, influxdb, pirogue-admin (>= 1.3.0)
+Filename: ./pirogue-dashboard_1.3.0_all.deb
+Size: 20308
+MD5sum: 375db68135beea28bb3c3f6f9a1bc84f
+SHA1: bd11d0f7452ab97a437428443ebc8952411986e5
+SHA256: 3bbdcbf637ad31fa8d7600f8f27aadea09cad1b237da8e6cdc63383b84192872
+SHA512: 991922b25f074a19cc1167ee7639eef70380d9306de27e8fea066fc33bc4f499a8f0c800998e3a5468b86f22dfc46ee911995837537f739dee82383c2906f72f
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue dashboards
+
 Package: pirogue-eve-collector
 Architecture: all
 Version: 1.2.0
@@ -454,6 +471,23 @@ SHA512: 2ff6401e5ce263e6962ba1c446119f0b61c0aee22eb188ccddd1afe1dd5aaa407dace678
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
 
+Package: pirogue-eve-collector
+Architecture: all
+Version: 1.3.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 86
+Depends: python3:any, suricata, suricata-update, influxdb, chronograf, python3-influxdb, python3-systemd, pirogue-admin (>= 1.3.0)
+Filename: ./pirogue-eve-collector_1.3.0_all.deb
+Size: 23036
+MD5sum: 8ea0a78ead5105c9418c8fbfc30d2fd1
+SHA1: 0fa0dbd657163da5983a4a1c4a84b3621424b140
+SHA256: 58f612e2d2291727dece4da459190bc71ddf4c6bf00e3c70eb015b5879796248
+SHA512: 55f4137fcf34e40215fe275adb165441a5314cbc8f50b69fb8df1dbdd1cd751b93e32638c2392db54b54bec693b6ecdf76f03ea9f0f1d1badb725be6a502daac
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue Suricata alarm collector
+
 Package: pirogue-flow-inspector
 Architecture: all
 Version: 1.2.0
@@ -485,6 +519,23 @@ MD5sum: e3376de0bee57c60f0eee23aecc8cd3e
 SHA1: 4e6b661b43905313779091e1c37f3eb429c9d84f
 SHA256: bbc1f2c191e4fb38cd5eb97b553e4c6b357a32633be12efb599a4b3669347f86
 SHA512: 62059bfb121cdf3f4dd89101c6fdb2895f6c4cd43467022b6bf55d354dafdc8dc3f92743855e4ce1d1219b4fab068cbd540dfa2b9354d03f3c351899dd0d1b90
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue DPI
+
+Package: pirogue-flow-inspector
+Architecture: all
+Version: 1.3.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 66758
+Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd, python3-netifaces, pirogue-admin (>= 1.3.0)
+Filename: ./pirogue-flow-inspector_1.3.0_all.deb
+Size: 21559564
+MD5sum: 859aeff6a2a9f0b2da29c90bb9b767cf
+SHA1: f07f45b51fd1b90bf2e19be71660069372614b52
+SHA256: 900e7d6a23fbac1a7f4aabe9f2b5600207ee76287284bd0e7126a8786e7b7f01
+SHA512: 251f225e0d07c21f79038f5be51e8d116bc17f2e323a2e196fd84937785337b852c6e7b9b57865c5a055f89015dbfc099d35389c523ead8770efe2e3db29f310
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 
@@ -621,6 +672,23 @@ MD5sum: 6b632f4c77019c79cf551f7ea8f60f50
 SHA1: 4e3e48c4682ca3b4529ce170467b9eabc4e79f50
 SHA256: 9b2fa64094aa8ed81c13a955e632281fc3c2d12f3d7b4e5f3ce8888c0425b629
 SHA512: 184b315fcfc91415fceec04cbfd3a888415ae6deeb873c8cb7fa034a4f19264bf015b61359d7ce77b17de8424aae3053c5acf00d4f40ea0c5f728d30c1625e69
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Configure networking components for the PiRogue
+
+Package: pirogue-networking
+Architecture: all
+Version: 1.3.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 36
+Depends: netfilter-persistent, iptables-persistent, hostapd, dnsmasq, rfkill, nftables, wireguard-tools, pirogue-admin (>= 1.3.0)
+Filename: ./pirogue-networking_1.3.0_all.deb
+Size: 8080
+MD5sum: 1b174bc34e9826dc5ee0d0cabbec9cad
+SHA1: 74f70544fcd392dd12c18f12a50d29df48ed14ab
+SHA256: 48096cc5ee3538bcc49ef5774f34abae7f801bf14245077d8fdaadd99e999762
+SHA512: fa987fe5f6b8e2586044e5b6c6a50198382e7faca98e938b0c60db634e01ff2a49ea6d2d995155fdee850edba6078a4bb917e4e06de14e6a250d77d446143ced
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Configure networking components for the PiRogue
 
