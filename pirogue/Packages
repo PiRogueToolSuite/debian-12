@@ -451,6 +451,23 @@ SHA512: dba0e2375d65f7a048f4c82206a21f9fb729e7ff162174979f400abbc147930070b2e5e2
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue DPI
 
+Package: pirogue-flow-inspector
+Architecture: all
+Version: 1.2.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 66759
+Depends: python3:any, influxdb, python3-influxdb, python3-nfstream, python3-numpy (>= 1:1.22), python3-communityid, python3-geoip2 (>= 4.5.0), python3-systemd, python3-netifaces, pirogue-admin (>= 1.2.3)
+Filename: ./pirogue-flow-inspector_1.2.1_all.deb
+Size: 21559644
+MD5sum: e3376de0bee57c60f0eee23aecc8cd3e
+SHA1: 4e6b661b43905313779091e1c37f3eb429c9d84f
+SHA256: bbc1f2c191e4fb38cd5eb97b553e4c6b357a32633be12efb599a4b3669347f86
+SHA512: 62059bfb121cdf3f4dd89101c6fdb2895f6c4cd43467022b6bf55d354dafdc8dc3f92743855e4ce1d1219b4fab068cbd540dfa2b9354d03f3c351899dd0d1b90
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue DPI
+
 Package: pirogue-hardware-detection
 Architecture: all
 Version: 1.1.0
