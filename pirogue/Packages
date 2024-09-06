@@ -540,3 +540,20 @@ SHA512: a6def3511fb6ef5afc04c3c9a164a5f095733d37d8f0ea1e31865ce9de25e6cc2d9b1ac8
 Homepage: https://github.com/PiRogueToolSuite/colander-python-client
 Description: Colander REST API Python client.
 
+Package: python3-colander-client
+Architecture: all
+Version: 1.0.5
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 52
+Depends: python3-coreapi, python3-deprecated, python3:any
+Filename: ./python3-colander-client_1.0.5_all.deb
+Size: 8684
+MD5sum: 684f954ce11946348bbed8744e7bab69
+SHA1: 699f7e1a2f8ed0013547497eb1b16017477c9f5b
+SHA256: 2dcbfeac61a59961a76e1c6bde625045e16de40db7ccce0dfe473b918dbd21ea
+SHA512: 46c1d97f29dd5c0a39e74c779b1d1331eaae4ffd7b6aff805d1e5721ba95d337e4ffb11e08dbe44546605b68160f7541cba06adf7fada1ae1aba15175d4b7fd8
+Homepage: https://github.com/PiRogueToolSuite/colander-python-client
+Description: Colander REST API Python client.
+
