@@ -1,0 +1,235 @@
+Package: firmware-brcm80211
+Architecture: all
+Version: 1:20230625-2+rpt3
+Multi-Arch: foreign
+Priority: optional
+Section: non-free-firmware/kernel
+Source: firmware-nonfree
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 20222
+Suggests: initramfs-tools
+Filename: ./firmware-brcm80211_20230625-2+rpt3_all.deb
+Size: 12991026
+MD5sum: c6969295330abf711750906f883e5b5e
+SHA1: a65e9ea55a612c1f3e74335fc342bdfd694fbb33
+SHA256: 1f65779338f7e7671e2e2a655cac059811f8f3bbb00ae5c1eb2599e54a2bca4b
+SHA512: 63917b0530419de1722186eaa9e9631266bb6054c8e0e7111436a245205fbf9f3dae96e2cdae8ceba5121476e3cf06480eeb754f8bb5a5ccb929b94e41a3ccb9
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
+ This package contains the binary firmware for wireless network cards
+ supported by the brcmsmac or brcmfmac driver.
+ .
+ Contents:
+  * Broadcom 802.11 firmware, version 610.812 (brcm/bcm43xx-0.fw)
+  * Broadcom 802.11 firmware header, version 610.812
+    (brcm/bcm43xx_hdr-0.fw)
+  * Broadcom BCM43143 USB firmware (brcm/brcmfmac43143.bin)
+  * Broadcom BCM43143 SDIO firmware (brcm/brcmfmac43143-sdio.bin)
+  * Broadcom BCM43236 firmware (brcm/brcmfmac43236b.bin)
+  * Broadcom BCM43241 rev 0-3 firmware (brcm/brcmfmac43241b0-sdio.bin)
+  * Broadcom BCM43241 rev 4 firmware (brcm/brcmfmac43241b4-sdio.bin)
+  * Broadcom BCM43241 rev 5+ firmware (brcm/brcmfmac43241b5-sdio.bin)
+  * Broadcom BCM43242 firmware (brcm/brcmfmac43242a.bin)
+  * Broadcom BCM4329 firmware (brcm/brcmfmac4329-sdio.bin)
+  * Broadcom BCM4330 firmware (brcm/brcmfmac4330-sdio.bin)
+  * Broadcom BCM4330 Prowise PT301 tablet NVRAM
+    (brcm/brcmfmac4330-sdio.Prowise-PT301.txt)
+  * Broadcom BCM43340 Meegopad T08 HDMI stick NVRAM
+    (brcm/brcmfmac43340-sdio.meegopad-t08.txt)
+  * Broadcom BCM43340 PoV TAB-P1006W-232 tablet NVRAM
+    (brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt)
+  * Broadcom BCM43340 Predia Basic tablet NVRAM
+    (brcm/brcmfmac43340-sdio.predia-basic.txt)
+  * Broadcom BCM4334 firmware (brcm/brcmfmac4334-sdio.bin)
+  * brcm/brcmfmac4335-sdio.bin
+  * Cubietech Cubietruck Ampak AP6210 Wifi/BT NVRAM
+    (brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt,
+    brcm/brcmfmac43362-sdio.lemaker,bananapro.txt)
+  * Jumper EZpad mini 3 tablet AP6210 Wifi/BT NVRAM
+    (brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt)
+  * Broadcom BCM43430a Chuwi Hi8 (CWI509) tablet NVRAM
+    (brcm/brcmfmac43430a0-sdio.ilife-S806.txt)
+  * brcm/brcmfmac43430-sdio.txt,
+    brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt,
+    brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt
+  * Broadcom BCM43430 rev 0 firmware (brcm/brcmfmac43430a0-sdio.bin)
+  * BCM43430 NRVAM AP6212 config (brcm/brcmfmac43430-sdio.AP6212.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt)
+  * Broadcom BCM43430 Chuwi Vi8 Plus tablet NVRAM
+    (brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt)
+  * Broadcom BCM43430 Murata 1DX NVRAM
+    (brcm/brcmfmac43430-sdio.MUR1DX.txt)
+  * BCM43455 NVRAM for AzureWave AW-CM256SM
+    (brcm/brcmfmac43455-sdio.AW-CM256SM.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt,
+    brcm/brcmfmac43455-sdio.pine64,quartz64-a.txt,
+    brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt,
+    brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.0.txt,
+    brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.1.txt,
+    brcm/brcmfmac43455-sdio.pine64,soquartz-blade.txt,
+    brcm/brcmfmac43455-sdio.pine64,soquartz-cm4io.txt,
+    brcm/brcmfmac43455-sdio.pine64,soquartz-model-a.txt)
+  * brcm/brcmfmac43455-sdio.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.txt
+  * Broadcom BCM43436 firmware, version 9.88.4.77
+    (brcm/brcmfmac43436-sdio.bin,
+    brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.bin,
+    brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.bin)
+  * brcm/brcmfmac43436-sdio.clm_blob,
+    brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.clm_blob,
+    brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.clm_blob
+  * NVRAM file for BCM43436 (brcm/brcmfmac43436-sdio.txt,
+    brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.txt,
+    brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.txt)
+  * Broadcom BCM43436s firmware, version 7.45.96.s1
+    (brcm/brcmfmac43436s-sdio.bin,
+    brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.bin,
+    brcm/brcmfmac43436s-sdio.raspberrypi,model-zero-2-w.bin)
+  * NVRAM file for BCM43436s (brcm/brcmfmac43436s-sdio.txt,
+    brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.txt,
+    brcm/brcmfmac43436s-sdio.raspberrypi,model-zero-2-w.txt)
+  * Broadcom BCM43456 firmware, version 7.84.17.1
+    (brcm/brcmfmac43456-sdio.bin,
+    brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.bin,
+    brcm/brcmfmac43456-sdio.raspberrypi,400.bin)
+  * brcm/brcmfmac43456-sdio.clm_blob,
+    brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.clm_blob,
+    brcm/brcmfmac43456-sdio.raspberrypi,400.clm_blob
+  * NVRAM file for BCM43456 (brcm/brcmfmac43456-sdio.txt,
+    brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.txt,
+    brcm/brcmfmac43456-sdio.raspberrypi,400.txt)
+  * Broadcom BCM4350 rev 5+ firmware (brcm/brcmfmac4350c2-pcie.bin)
+  * Broadcom BCM4350 rev 0-4 firmware (brcm/brcmfmac4350-pcie.bin)
+  * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
+  * Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
+    (brcm/brcmfmac4356-pcie.gpd-win-pocket.txt)
+  * Broadcom AP6356S WiFi module NVRAM
+    (brcm/brcmfmac4356-sdio.AP6356S.txt,
+    brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt,
+    brcm/brcmfmac4356-sdio.khadas,vim2.txt,
+    brcm/brcmfmac4356-sdio.vamrs,rock960.txt)
+  * Broadcom BCM4358 firmware (brcm/brcmfmac4358-pcie.bin)
+  * Broadcom BCM43602 AP-mode firmware (brcm/brcmfmac43602-pcie.ap.bin)
+  * Broadcom BCM43602 firmware (brcm/brcmfmac43602-pcie.bin)
+  * Broadcom BCM4366 firmware (brcm/brcmfmac4366b-pcie.bin)
+  * Broadcom BCM4366 3x3 802.11 ac firmware
+    (brcm/brcmfmac4366c-pcie.bin)
+  * Broadcom BCM4371 firmware (brcm/brcmfmac4371-pcie.bin)
+  * Cypress CYW4373-USB firmware (brcm/brcmfmac4373.bin)
+  * Cypress CYW43012-SDIO firmware (cypress/cyfmac43012-sdio.bin,
+    brcm/brcmfmac43012-sdio.bin)
+  * Cypress CYW43012-SDIO CLM firmware
+    (cypress/cyfmac43012-sdio.clm_blob,
+    brcm/brcmfmac43012-sdio.clm_blob)
+  * Cypress CYW43340-SDIO firmware (cypress/cyfmac43340-sdio.bin,
+    brcm/brcmfmac43340-sdio.bin)
+  * Cypress CYW43362-SDIO firmware (cypress/cyfmac43362-sdio.bin,
+    brcm/brcmfmac43362-sdio.bin)
+  * Cypress CYW4339-SDIO firmware (cypress/cyfmac4339-sdio.bin,
+    brcm/brcmfmac4339-sdio.bin)
+  * Cypress CYW43430-SDIO firmware, version 7.45.98.118
+    (cypress/cyfmac43430-sdio.bin, brcm/brcmfmac43430-sdio.bin,
+    brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.bin,
+    brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.bin)
+  * Cypress CYW43430-SDIO CLM firmware
+    (cypress/cyfmac43430-sdio.clm_blob,
+    brcm/brcmfmac43430-sdio.clm_blob,
+    brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.clm_blob,
+    brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.clm_blob)
+  * cypress/cyfmac43439-sdio.bin, brcm/brcmfmac43439-sdio.bin
+  * cypress/cyfmac43439-sdio.clm_blob, brcm/brcmfmac43439-sdio.clm_blob
+  * cypress/cyfmac43439-sdio.txt, brcm/brcmfmac43439-sdio.txt
+  * Cypress CYW43455-SDIO firmware, version 7.45.265
+    (cypress/cyfmac43455-sdio-standard.bin)
+  * Cypress CYW43455-SDIO CLM firmware
+    (cypress/cyfmac43455-sdio.clm_blob,
+    brcm/brcmfmac43455-sdio.clm_blob,
+    brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.clm_blob,
+    brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.clm_blob,
+    brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.clm_blob,
+    brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.clm_blob,
+    brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.clm_blob)
+  * Cypress CYW43455-SDIO minimal firmware, version 7.45.241
+    (cypress/cyfmac43455-sdio-minimal.bin)
+  * Cypress CYW4354-SDIO firmware (cypress/cyfmac4354-sdio.bin,
+    brcm/brcmfmac4354-sdio.bin)
+  * Cypress CYW4354-SDIO CLM firmware (cypress/cyfmac4354-sdio.clm_blob,
+    brcm/brcmfmac4354-sdio.clm_blob)
+  * Cypress CYW4356-PCIE firmware (cypress/cyfmac4356-pcie.bin,
+    brcm/brcmfmac4356-pcie.bin)
+  * Cypress CYW4356-PCIE CLM firmware (cypress/cyfmac4356-pcie.clm_blob,
+    brcm/brcmfmac4356-pcie.clm_blob)
+  * Cypress CYW4356-SDIO firmware (cypress/cyfmac4356-sdio.bin,
+    brcm/brcmfmac4356-sdio.bin)
+  * Cypress CYW4356-SDIO CLM firmware (cypress/cyfmac4356-sdio.clm_blob,
+    brcm/brcmfmac4356-sdio.clm_blob)
+  * Cypress CYW43570-PCIE firmware (cypress/cyfmac43570-pcie.bin,
+    brcm/brcmfmac43570-pcie.bin)
+  * Cypress CYW43570-PCIE CLM firmware
+    (cypress/cyfmac43570-pcie.clm_blob,
+    brcm/brcmfmac43570-pcie.clm_blob)
+  * Cypress CYW4373-SDIO firmware (cypress/cyfmac4373-sdio.bin,
+    brcm/brcmfmac4373-sdio.bin)
+  * Cypress CYW4373-SDIO CLM firmware (cypress/cyfmac4373-sdio.clm_blob,
+    brcm/brcmfmac4373-sdio.clm_blob)
+  * Cypress CYW54591-PCIE firmware (cypress/cyfmac54591-pcie.bin,
+    brcm/brcmfmac54591-pcie.bin)
+  * Cypress CYW54591-PCIE CLM firmware
+    (cypress/cyfmac54591-pcie.clm_blob,
+    brcm/brcmfmac54591-pcie.clm_blob)
+
+Package: linux-image-6.6.31+rpt-rpi-2712
+Architecture: arm64
+Version: 1:6.6.31-1+rpt1
+Priority: optional
+Section: kernel
+Source: linux
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 32156
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: firmware-linux-free, apparmor
+Suggests: linux-doc-6.6, debian-kernel-handbook
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~)
+Filename: ./linux-image-6.6.31+rpt-rpi-2712_6.6.31-1+rpt1_arm64.deb
+Size: 29370304
+MD5sum: 39604541e8fbadd4462dd73670db77b7
+SHA1: 6ccc01351c99af91f1c9f35b56e12e2d1e429289
+SHA256: b1e05af46a29d12ccb7de0c2e961187404b99cdbdb8f009f5ddb5779d594016a
+SHA512: ea42c91112bae213bdb36229c93a315db9b3cc5638d45030e864614fe17834a73a0c464b7d36ffa274bb080b677e1f348de16841ba5114bef9af9bc46df15a67
+Homepage: https://github.com/raspberrypi/linux/
+Description: Linux 6.6 for Raspberry Pi 2712, Raspberry Pi
+ The Linux kernel 6.6 and modules for use on Raspberry Pi 2712 kernel.
+ .
+ This kernel includes the patches for Raspberry Pi platforms.
+
+Package: linux-image-rpi-2712
+Architecture: arm64
+Version: 1:6.6.31-1+rpt1
+Priority: optional
+Section: kernel
+Source: linux
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 13
+Provides: linux-latest-modules-6.6.31+rpt-rpi-2712, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.6.31+rpt-rpi-2712 (= 1:6.6.31-1+rpt1)
+Filename: ./linux-image-rpi-2712_6.6.31-1+rpt1_arm64.deb
+Size: 1432
+MD5sum: e78595307ddbfb0de80d5e81e02ccbca
+SHA1: 91c485bd77ce1d98c906651b770d0fe01111a7c4
+SHA256: f92f7f338b15c69b81365259bf0808396d3a0a609920e4449b3cc38d668c0c19
+SHA512: b6edd80b470c081a6a245aa7ffd7ae49f5468366de7c47d4ca3979ba70ccb5c1fa1015c6af292e209c00d1c6c1193d1971c39f6cf04853c59a829c5ff196540b
+Homepage: https://github.com/raspberrypi/linux/
+Description: Linux for Raspberry Pi 2712 (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ Raspberry Pi 2712 kernel.
+
