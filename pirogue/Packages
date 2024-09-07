@@ -428,6 +428,24 @@ SHA512: 121d983cc5fbeecc3526f4a05d21b96524cce0c393c8cb226af7581f04db92fac112b1c9
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
+Package: pirogue-base
+Architecture: all
+Version: 1.2.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 10
+Depends: python3-pip, python3-systemd, pirogue-admin, pirogue-cli, pirogue-tools, pirogue-networking, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen, pirogue-archive-keyring
+Recommends: pirogue-telemetry
+Filename: ./pirogue-base_1.2.2_all.deb
+Size: 2964
+MD5sum: 8abf6916936fe043331f4381280ef98a
+SHA1: 8d97ee9c902e6b5e34f12c42d28d0b3e5aaf9b5f
+SHA256: bd385602fb1b4e8206b259bb4a1214c2bd9da47127b4c618d9084080cd24a029
+SHA512: 75388379cd6fd8d01bbbab37186d264bf159ee3961d6e061382dceb1e1935495139667331fbabb4b077cca296928dd2f189a7936df679483f1e88c9b1c5088f3
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue packages
+
 Package: pirogue-cli
 Architecture: all
 Version: 1.1.0
