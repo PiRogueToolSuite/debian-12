@@ -18,8 +18,8 @@ All the sources of the packages distributed by this PPA are available at:
 To install PiRogue packages repository on your fresh Debian 12 installation, execute the following command in a terminal:
 
 ```
-sudo curl -o /etc/apt/sources.list.d/pirogue.list https://pts-project.org/debian-12/pirogue.list
-sudo curl -o /etc/apt/trusted.gpg.d/pirogue.gpg   https://pts-project.org/debian-12/pirogue.gpg
+sudo wget -O /etc/apt/sources.list.d/pirogue.list https://pts-project.org/debian-12/pirogue.list
+sudo wget -O /etc/apt/trusted.gpg.d/pirogue.gpg   https://pts-project.org/debian-12/pirogue.gpg
 sudo apt update
 ```
 
