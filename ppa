@@ -127,7 +127,7 @@ do_check() {
 KEYRING=pirogue.gpg
 TARGETS="$*"
 if [ "$TARGETS" = '' ]; then
-  TARGETS='pirogue pirogue-3rd-party'
+  TARGETS='pirogue pirogue-3rd-party pirogue-3rd-party-pi5'
 fi
 
 #  - Actions:
