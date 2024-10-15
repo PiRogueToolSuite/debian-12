@@ -16,7 +16,6 @@ All the sources of the packages distributed by this PPA are available at:
 
 - https://github.com/PiRogueToolSuite/deb-packages/tree/virogue
 - https://github.com/PiRogueToolSuite/pirogue-admin/tree/main
-- https://github.com/PiRogueToolSuite/pirogue-cli/tree/debian-12
 - https://github.com/PiRogueToolSuite/pirogue-colander-connector/tree/main
 - https://github.com/PiRogueToolSuite/deb-python/tree/debian-12
 
