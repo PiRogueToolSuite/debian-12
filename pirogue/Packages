@@ -129,6 +129,24 @@ SHA512: 22dcfb82627142652d5d1fbefbed4d8b1c365636af07ad168fc3d09d90bc9569afc599fb
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
+Package: pirogue-base
+Architecture: all
+Version: 2.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 11
+Depends: python3-pip, python3-systemd, pirogue-admin, pirogue-admin-client, pirogue-tools, pirogue-networking, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen, pirogue-archive-keyring
+Recommends: pirogue-telemetry
+Filename: ./pirogue-base_2.0.1_all.deb
+Size: 3072
+MD5sum: 039fdd2f7282ff3cc96b1c287585c29e
+SHA1: 8e33e6e7579cbd58ca5fa49d1f81e057ddc51698
+SHA256: f135d4b1f6d2e320d5f163ab798ef6c8469313e58450376f81925994cc4349b3
+SHA512: 12771209da759a7ac45d62b741e397a6e7a620233b5d8ad3ff8af2aef77a3164afc9053c033d6f63f628f8364d379b3c22e4b90cceac84891208d5a711960cd4
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue packages
+
 Package: pirogue-colander-connector
 Architecture: all
 Version: 1.0.5
