@@ -147,6 +147,24 @@ SHA512: 12771209da759a7ac45d62b741e397a6e7a620233b5d8ad3ff8af2aef77a3164afc9053c
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
+Package: pirogue-base
+Architecture: all
+Version: 2.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 11
+Depends: python3-pip, python3-systemd, pirogue-admin, pirogue-admin-client, pirogue-external-exposure, pirogue-tools, pirogue-networking, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen, pirogue-archive-keyring
+Recommends: pirogue-telemetry
+Filename: ./pirogue-base_2.0.2_all.deb
+Size: 3108
+MD5sum: d906c64324d3e9151ea827ff84b50a7c
+SHA1: f3090478478c4e934e267bbd12bfdad45bb81f39
+SHA256: 502bbd1ffe73ca4f59839f5013ac1b967854f711d01783de89dfba280aea7863
+SHA512: 488109ba45eff0ee9236e170050125158350edaec7457562d103efc61c84af049f107748eb776f35c14daf68b9803dae0cc651ba999dcf05640c977bf9fe7e0d
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue packages
+
 Package: pirogue-colander-connector
 Architecture: all
 Version: 1.0.5
@@ -215,6 +233,23 @@ SHA512: 4b0db58c97ff45e356aa21940ff59c1a337a9b1cd0598c047f4473372cd29176b19cf896
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
+Package: pirogue-dashboard
+Architecture: all
+Version: 2.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 119
+Depends: grafana, influxdb, pirogue-admin (>= 2.0.0)
+Filename: ./pirogue-dashboard_2.0.1_all.deb
+Size: 20556
+MD5sum: 20702b2ca155be6aa2307d80cc72b723
+SHA1: ac778aba461debaff8915afd25d0db076b22553c
+SHA256: 55c42d1027a6ff2a9792ef32020efce46fc4525782a9356824e90ab11b61bc37
+SHA512: 98fe26e0d8c49baec7f1aff5886c7b910cbebadc01ebd276b5535d1a6a796cb88763d014bb8da6a3bd56d87d1a86f0a948d1cb9ba53be831bd694f3c88575b5d
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue dashboards
+
 Package: pirogue-eve-collector
 Architecture: all
 Version: 1.3.0
@@ -263,6 +298,24 @@ MD5sum: 08b9afcff17e09fda1e3c614eb8f279f
 SHA1: d7d31e0393537e8be45308bc9fa557af001f1b06
 SHA256: 0e3198a077ac69c845884a37ecbc02de3986aa798e589f8dd6874f6431854db2
 SHA512: 238e12b37015d99c796a9f7220a360a683264ce5c16811640bddeaf05c6393905e05269e102b95484f4e1a40ce5510a6fc0da1f058a4e4ec526eac81078cf5e1
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Expose remote access and services
+ Bind services with TLS support on external interface.
+
+Package: pirogue-external-exposure
+Architecture: all
+Version: 2.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 34
+Depends: nginx, certbot, openssl, pirogue-admin, pirogue-dashboard
+Filename: ./pirogue-external-exposure_2.0.1_all.deb
+Size: 5664
+MD5sum: a69caea3cf0b864a35668031f974a884
+SHA1: 17b90b4ac40eb368350d58be5dd5d167e3cb260a
+SHA256: dcfd1a1bfb9104537dd3798925174d74a638d8a09643c056e1b6647a6770c717
+SHA512: 42f5099fc44db52b34b572de9a91a753ba969d07b0bbd91b6deb57cf2a8957f336966875b95fe4288ff7236aa5877cf5f556732cd54d1b32ebbc3c27c32d1e5a
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Expose remote access and services
  Bind services with TLS support on external interface.
