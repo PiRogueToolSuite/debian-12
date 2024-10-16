@@ -243,10 +243,10 @@ Installed-Size: 120
 Depends: grafana, influxdb, pirogue-admin (>= 2.0.0)
 Filename: ./pirogue-dashboard_2.0.1_all.deb
 Size: 20544
-MD5sum: 16df6e6de656ce09ab1bb3906f5125c4
-SHA1: 2f070dda2336d0ff3278dff1f7aa35c8599ca320
-SHA256: bf575ebcc3b3383b6e009bbe8805f54664cdfa867b46128f1649929962da6641
-SHA512: a2c6366f21fa98d7b3202c5ace63f3b97f0198413a719b3c5a69aeac0d27bb0719f3cbe7fdffd163e84934b1fc538a84dba2082cc65e0e104f2a71ece4e91066
+MD5sum: e6071ab591735a8856ae1e178b33a973
+SHA1: 3603088c888ecb4e4cabe4f099c3704f946a87e3
+SHA256: 72a7fdbc842f401a8c434065ac8c5b5d3d59817db060bf1776b1169b74462144
+SHA512: 34daa777d958111615fa66ab4660c76dea69c82f02fce6fd88bb0e0781e8316aaf5c8c6a5da2dacd390ac698d6227d70641ecc6b5a200ab4ede25a89f0eefbf8
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue dashboards
 
