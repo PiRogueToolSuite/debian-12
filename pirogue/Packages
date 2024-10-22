@@ -51,6 +51,44 @@ Description: PiRogue administration client
  This package allows the user to administrate a PiRogue instance locally
  and remotely.
 
+Package: pirogue-admin-client
+Architecture: all
+Version: 2.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 62
+Depends: python3-grpcio, python3-pirogue-admin-api, python3-yaml, python3:any
+Filename: ./pirogue-admin-client_2.0.1_all.deb
+Size: 10512
+MD5sum: c107cb0e0af89b1b7b658e2ae34b0c85
+SHA1: 8bcc034ae5e2fac33da1620b83d2d7cd6947dcba
+SHA256: 0efd2fe2ca1e2b62c0e3946ae789da7353327f91d9f73b2ce7c6f68ce0c9d867
+SHA512: d2459da1e82e54d88eaed36616145ba3104950b69bf12031b1ef32afc8ec76a823ff6b760c957024fa814e447847cfe6f29cef38f95844b00eefb0a538ac14a8
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration client
+ This package allows the user to administrate a PiRogue instance locally
+ and remotely.
+
+Package: pirogue-admin-client
+Architecture: all
+Version: 2.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 62
+Depends: python3-grpcio, python3-pirogue-admin-api (= 2.0.1), python3-yaml, python3:any
+Filename: ./pirogue-admin-client_2.0.2_all.deb
+Size: 10664
+MD5sum: ead25ea11b162797b4998241ba180887
+SHA1: ff082673c04841f6a16deba065dbfaa60ee5ca92
+SHA256: 92c12f098a3b433bf9ca27e2b284e920fb9a750fb7383c73b9a59a7299ef269c
+SHA512: cabdd0557bd76286a3cbbccc742437cd6691c0066be209fd97693b2e89c522607c54fe54eefc4038faaaaeea0c9257d64b8d264e79226fb2f942b0012b333c9f
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration client
+ This package allows the user to administrate a PiRogue instance locally
+ and remotely.
+
 Package: pirogue-admin
 Architecture: all
 Version: 1.4.4
@@ -110,6 +148,50 @@ SHA512: 12ffaaaf17eee497e651a3a2c46577d86d44670f26f6d87a4e753945efe6e0addd793ae1
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: PiRogue administration tool
  This package features autodetection to facilitate PiRogue's deployment, and
+ coordinates configuration file updates alongside relevant service restarts
+ whenever the configuration is updated.
+
+Package: pirogue-admin
+Architecture: all
+Version: 2.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 179
+Depends: python3-grpcio, python3-pirogue-admin-api, python3-requests, python3-systemd, python3-yaml, qrencode, python3:any
+Conflicts: pirogue-cli
+Replaces: pirogue-cli
+Filename: ./pirogue-admin_2.0.2_all.deb
+Size: 40692
+MD5sum: c58e4055f1e2be9edf370208faf86065
+SHA1: b37e047448f771647b4133eee9cc459aede87ce0
+SHA256: de3fbe03afea9dda286c5a9f13c03811c3193cf5434c8caf7cfdb7cac40cfdfb
+SHA512: ca0dcb9db01b533b122b984509dedc8fd330a07d50ee54f851ab9e6c2930f04b012ec9387b84569ca54234514ae302213753b0e452d172f92bc880f6cab39f3f
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration tool
+ This package features auto-detection to facilitate PiRogue's deployment, and
+ coordinates configuration file updates alongside relevant service restarts
+ whenever the configuration is updated.
+
+Package: pirogue-admin
+Architecture: all
+Version: 2.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 179
+Depends: python3-grpcio, python3-pirogue-admin-api (= 2.0.1), python3-requests, python3-systemd, python3-yaml, qrencode, python3:any
+Conflicts: pirogue-cli
+Replaces: pirogue-cli
+Filename: ./pirogue-admin_2.0.3_all.deb
+Size: 40780
+MD5sum: 0efc5a1553e1edc0c4f27071314b611b
+SHA1: 270f0a780b30cd21d12595de0aedd972122a64f3
+SHA256: 8d5f26025f42406dd8eefd5df6890d6f3f14fff443406c8bc0450388643437d4
+SHA512: c9758f1257c91d42e567380b51055d3f20aef4b2f3f63fffaca6eae3fbc4871a76df7c3f081a82058d5d16d2fce4bd65ecf7f06485249d0bba11e1bbdc26224b
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration tool
+ This package features auto-detection to facilitate PiRogue's deployment, and
  coordinates configuration file updates alongside relevant service restarts
  whenever the configuration is updated.
 
@@ -699,4 +781,23 @@ Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: PiRogue administration tool API
  This package describes and provides python pirogue administration API
  for both server and clients python implementation.
+
+Package: python3-pirogue-admin-api
+Architecture: all
+Version: 2.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 96
+Depends: python3-grpcio, python3-yaml, python3:any
+Filename: ./python3-pirogue-admin-api_2.0.1_all.deb
+Size: 9028
+MD5sum: e3310f2930679c44a08c7d88b4c7fecb
+SHA1: 82a1d1836bbfa7dd6d61e7acabcf333d66d09c01
+SHA256: 994cdff36b17d36b42bac313ee2bff77c17d9082f5d25fb04be8acdab4d8946a
+SHA512: 5d30ab52dac384fe1efee1257c59f26d320d29992bc7df75c75294ac03a39d5af89cf9c09a3ea4bdef37c7afe5c9bfc4add8f89ea959fe0287e0410a8f3a1886
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration tool API
+ This package defines the communication the communication protocol
+ between the administration client and daemon for PiRogue.
 
