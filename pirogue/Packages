@@ -636,6 +636,23 @@ SHA512: 601e4cd10c4b4a9e1cdc2dc64e9bfaa36b10331ee385dbe80a2d2c546e117f01846a2140
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue maintenance scripts
 
+Package: pirogue-maintenance
+Architecture: all
+Version: 2.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 21
+Depends: suricata
+Filename: ./pirogue-maintenance_2.0.1_all.deb
+Size: 3388
+MD5sum: 819ac58b169c0d1d0bd942f09808456a
+SHA1: 3ebdbe9d9756923bc96a3ed50f4e34897d104563
+SHA256: e6f4701edcb3cfa574dda11e8ebc404c68418418ed965c49fa1e7a6627a04223
+SHA512: 0b57f40e1f953bf64dc077f62bdeb433181d455ad5de33828e3831f953135dd0df276931f263e2f30a81d804f7667bf4273c86d189f3840a13e7136d627323a1
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Provision PiRogue maintenance scripts
+
 Package: pirogue-networking
 Architecture: all
 Version: 1.3.5
