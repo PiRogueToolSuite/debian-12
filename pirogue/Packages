@@ -79,11 +79,11 @@ Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 62
 Depends: python3-grpcio, python3-pirogue-admin-api (= 2.0.1), python3-yaml, python3:any
 Filename: ./pirogue-admin-client_2.0.2_all.deb
-Size: 10664
-MD5sum: ead25ea11b162797b4998241ba180887
-SHA1: ff082673c04841f6a16deba065dbfaa60ee5ca92
-SHA256: 92c12f098a3b433bf9ca27e2b284e920fb9a750fb7383c73b9a59a7299ef269c
-SHA512: cabdd0557bd76286a3cbbccc742437cd6691c0066be209fd97693b2e89c522607c54fe54eefc4038faaaaeea0c9257d64b8d264e79226fb2f942b0012b333c9f
+Size: 10668
+MD5sum: b4d5d67be1317cfb29d66c19d5f2e4ab
+SHA1: c122146888dc33b42d7d5b0ace837acf26d96d44
+SHA256: 13ba6a137ce5b04852b172e85954e0c028670564ebf4a8844791717eb301dee9
+SHA512: 8d9f1c2b0c9f4f4752ce7234c14d2b9ade99d312ab68288e74625afafc876640a1674ab58849b09c950986cbe2c786bfdf36f6c17f036916059eb8df1d4443f7
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: PiRogue administration client
  This package allows the user to administrate a PiRogue instance locally
