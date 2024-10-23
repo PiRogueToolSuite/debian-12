@@ -106,6 +106,26 @@ Description: PiRogue administration client
  This package allows the user to administrate a PiRogue instance locally
  and remotely.
 
+Package: pirogue-admin-client
+Architecture: all
+Version: 2.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 63
+Depends: python3-cryptography (>= 38.0.4), python3-grpcio, python3-pirogue-admin-api (= 2.0.1), python3-yaml, python3-cryptography (<< 38.1), python3:any
+Recommends: qrencode
+Filename: ./pirogue-admin-client_2.0.3_all.deb
+Size: 11120
+MD5sum: c785cb657b169f4ee5309e508faa364b
+SHA1: 1228240f88bbd64f7a33eec25643a06c30fbb022
+SHA256: a6d008c14b4de86f2da698b8e02c326b9759aa09f5ac7c2cfe43773d92595534
+SHA512: f41109ebf54d1903bfb868ef8af9bd1bea74940e3b4d84ea89f9e9752dc4b2063e7d29ab21558883d335d655b343aa14d174d501551f27e1eac661dd5c475d0e
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration client
+ This package allows the user to administrate a PiRogue instance locally
+ and remotely.
+
 Package: pirogue-admin
 Architecture: all
 Version: 1.4.4
