@@ -380,6 +380,24 @@ SHA512: 60bfcb55737e4217f541b1ede7b814e1958e25d0db658cc897151217b343e2f7f2899e85
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Install all PiRogue packages
 
+Package: pirogue-base
+Architecture: all
+Version: 2.0.4
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 11
+Depends: python3-pip, python3-systemd, pirogue-admin, pirogue-admin-client, pirogue-external-exposure, pirogue-tools, pirogue-networking, pirogue-hat, pirogue-dashboard, pirogue-eve-collector, pirogue-flow-inspector, pirogue-colander-connector, pirogue-evidence-collector, pirogue-maintenance, pirogue-screen-st7789-240x240 | pirogue-screen, pirogue-archive-keyring
+Recommends: pirogue-telemetry
+Filename: ./pirogue-base_2.0.4_all.deb
+Size: 3380
+MD5sum: b892fbd2d7334fe2d4db1e3349706e77
+SHA1: 5fb82d0685d39ee2e3fffd9ef4f95362bfc446a9
+SHA256: 79e298b7456e4acb2f226bb2c143351663be781ce6dfa3bbb709abfaad5c9b7a
+SHA512: 0cf2276560d41aa68cf2c17097a44264328c39b8f41af6e5368383a6953bb360dd482b099483f561cee207b3d66512ce8b003aa01f44fb05936ea26f57c3c4e1
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Install all PiRogue packages
+
 Package: pirogue-colander-connector
 Architecture: all
 Version: 1.0.5
@@ -498,6 +516,23 @@ SHA256: bb3ab949503efaf3915299de884dc5c734cfb382e66934981d473d53517f7a20
 SHA512: 0d4c78b1ba009fbc35108f43c98e47eae7ea0146244dbcce9f72fc889a21f0523c000f45536c468afd56b1ded8eb4d2ac7be3050a78e8300fcfe8da4730e2cc6
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Provision PiRogue Suricata alarm collector
+
+Package: pirogue-evidence-collector
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 244
+Depends: python3:any, python3-adb-shell, python3-usb1, python3-requests, python3-rich, python3-gi, python3-communityid, python3-flask, python3-qrcode, python3-rfc3161ng, python3-netifaces, adb, frida, tshark, tcpdump
+Filename: ./pirogue-evidence-collector_1.0.0_all.deb
+Size: 40088
+MD5sum: b26c22fdb007c31f89096ab2afe890dd
+SHA1: d74b2f53b1c33737f6305dadd4175f1f2f44c442
+SHA256: 409bbb471982680db3e4076d6f61c1077080739b219f8f3b6c71094756560aff
+SHA512: 1241561df7e52b890e7f5d54aa67216b9a6d4395ead0dd1bedd26385980dc6e8f05f2d57ca975f8dde25412896ce809fb133e4cf1714cca303412540f790b04f
+Homepage: https://github.com/PiRogueToolSuite/pirogue-evidence-collector
+Description: A set of tools to collect digital evidence from mobile devices
 
 Package: pirogue-external-exposure
 Architecture: all
