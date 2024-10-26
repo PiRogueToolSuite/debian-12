@@ -254,6 +254,28 @@ Description: PiRogue administration tool
  coordinates configuration file updates alongside relevant service restarts
  whenever the configuration is updated.
 
+Package: pirogue-admin
+Architecture: all
+Version: 2.0.5
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 182
+Depends: python3-grpcio, python3-pirogue-admin-api (= 2.0.1), python3-requests, python3-rich, python3-systemd, python3-yaml, qrencode, python3:any
+Conflicts: pirogue-cli
+Replaces: pirogue-cli
+Filename: ./pirogue-admin_2.0.5_all.deb
+Size: 41708
+MD5sum: 938c65e25ac6c1a7545c858c8c9ef65e
+SHA1: f8e467ffade9b19f24641d512df51f2ff4393411
+SHA256: f2d6492c1e66f848a8486c2ca237986143b04f1eb61edba2916f7e8771564300
+SHA512: eadbc1cdfed3e886b0b16a04933babca4fb9fa2e51d91b98d6716c3920ceaa2f377ddffb6a4c41f9f2b50643bae09bac0a67e436b3df7626336b2952e3faef2b
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: PiRogue administration tool
+ This package features auto-detection to facilitate PiRogue's deployment, and
+ coordinates configuration file updates alongside relevant service restarts
+ whenever the configuration is updated.
+
 Package: pirogue-ap
 Architecture: all
 Version: 1.1.2
@@ -584,6 +606,24 @@ MD5sum: edb3dbcfca443b1ac221fa007910c344
 SHA1: 6e0926ed62772fd52d5e3102bfc154490c93c090
 SHA256: edc2dd6e032bfba719372925c6913a3ae22ab2e6532b4a725c65dff1ffa04a21
 SHA512: 52db7424b7db53463b0298a937a084c6af56d2079f1f9de53c19e8176b5b8fa825ad806506ebec0d6980203c4b90ec8f676059d61a4208e1e11aeb353ff0a99c
+Homepage: https://github.com/PiRogueToolSuite/deb-packages
+Description: Expose remote access and services
+ Bind services with TLS support on external interface.
+
+Package: pirogue-external-exposure
+Architecture: all
+Version: 2.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 42
+Depends: nginx, certbot, openssl, pirogue-admin (>= 2.0.5), pirogue-dashboard
+Filename: ./pirogue-external-exposure_2.0.3_all.deb
+Size: 6676
+MD5sum: d2f88df49a7bce902c6d1b854023df00
+SHA1: dbb2b03dc679ffe23e06e2843d2cd88bf1969594
+SHA256: 47337280f0ea61caf2ae9dafd9705fadb566ddf4677f55fd304c5dabd8e0a889
+SHA512: 0083923a90cdfd3613423fdd1f6a1532a600f16ce73361f00a951e14bcad0f2be528b1d62af8e249d9ae795bd784b82efb3cd2fad4887b14b0461cc481679c60
 Homepage: https://github.com/PiRogueToolSuite/deb-packages
 Description: Expose remote access and services
  Bind services with TLS support on external interface.
