@@ -970,6 +970,23 @@ SHA512: 53fd83e478662351c8061b51a87febcda39bb8970c9dfaa1faa294e6184fba1c26da7d69
 Homepage: https://github.com/PiRogueToolSuite/pts-telemetry
 Description: Install the privacy-preserving telemetry system for PiRogue
 
+Package: pirogue-telemetry
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 47
+Depends: python3:any, python3-requests, python3-influxdb-client
+Filename: ./pirogue-telemetry_1.0.1_all.deb
+Size: 7912
+MD5sum: 85e2b1747386bf37a75174b6f383a526
+SHA1: 65cd7296393e446a9bbf504b99eba1337caa40e1
+SHA256: 3d06e7b6285550dee2e5aebd96efb630fc0996e3a5a7952229ecedbac0fa693f
+SHA512: 3a2961bae810749043b0ae2db28605f1304905f578b824c52782a3d62a28d0273ecee8995a5125a153793b5a68108f0d0ca5311979d460c362abd7b896ed8a3f
+Homepage: https://github.com/PiRogueToolSuite/pts-telemetry
+Description: Install the privacy-preserving telemetry system for PiRogue
+
 Package: pirogue-tools
 Architecture: all
 Version: 1.1.0
