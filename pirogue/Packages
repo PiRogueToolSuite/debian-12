@@ -506,6 +506,23 @@ SHA512: 24ecea4c7f534af5e73156c0fc959e8684ddb7cc2dc3df668575d2fc3f0205c9a0625440
 Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
 Description: CLI interface to transfer data from the PiRogue to Colander.
 
+Package: pirogue-colander-connector
+Architecture: all
+Version: 1.0.9
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 51
+Depends: python3-rich, python3:any, python3-colander-client
+Filename: ./pirogue-colander-connector_1.0.9_all.deb
+Size: 8920
+MD5sum: 2d28cefbf773c8c17456fead365cc1c8
+SHA1: e6b76c9963448469ccf34d1917787ab59ad501db
+SHA256: 65ace9d5258dbd69916ac6c0f68737f0af7e546fc55fd4ef399e657f0401239b
+SHA512: dc78c5a6b56d79e5a69c34c175d20faaf3609847a9ff6d846d1ca24928277ecec60d56b3481a46f3c2676ba66f5935a1d0280e113355d97c8a30a8edd3d4080e
+Homepage: https://github.com/PiRogueToolSuite/pirogue-colander-connector
+Description: CLI interface to transfer data from the PiRogue to Colander.
+
 Package: pirogue-dashboard
 Architecture: all
 Version: 1.3.0
@@ -622,6 +639,23 @@ MD5sum: b1182e5a5d473a8be20636be133b3855
 SHA1: 6d42fdaf918b3f250e56cf6fff56343050f0eb38
 SHA256: a745be2543688056d93285e5755a7a9b335a6f9e4f1ea8be443ee5962549d807
 SHA512: 2705477ecc40793e3eef85c1bbcbea317fc1c94438f87e57994303d74d999e2e9db225dc291b7c011de3d5212e4e17bae50e7dd17dfadbf631ed57b8170b8834
+Homepage: https://github.com/PiRogueToolSuite/pirogue-evidence-collector
+Description: A set of tools to collect digital evidence from mobile devices
+
+Package: pirogue-evidence-collector
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 246
+Depends: python3:any, pirogue-admin-client, pirogue-colander-connector, python3-adb-shell, python3-usb1, python3-requests, python3-rich, python3-gi, python3-communityid, python3-flask, python3-qrcode, python3-rfc3161ng, python3-netifaces, adb, frida, tshark, tcpdump
+Filename: ./pirogue-evidence-collector_1.0.2_all.deb
+Size: 40488
+MD5sum: 0971cc52eb4b77ce47d4e9fbb22337bb
+SHA1: 6b9bf10e76979ea2013c20c19163f27293e580ff
+SHA256: 29f1df1454d36d437144856b165d1b599db32f47c45507301fe4dbe4cdfd4828
+SHA512: 5c0fc403684ffd96d70480c26ec4ae8877e8dca03882cd02a6b12a9668ef8192e640677d970270156818858c215896cc8372229677e87cc4d99add2f1e29e1bb
 Homepage: https://github.com/PiRogueToolSuite/pirogue-evidence-collector
 Description: A set of tools to collect digital evidence from mobile devices
 
