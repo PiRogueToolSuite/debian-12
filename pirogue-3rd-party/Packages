@@ -178,6 +178,42 @@ Homepage: https://frida.re/
 Description: dynamic instrumentation toolkit for reverse-engineering
  FIXME: Long description.
 
+Package: frida
+Architecture: amd64
+Version: 16.7.8~pirogue1
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 111321
+Depends: python3 (>= 3~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>= 2.35)
+Filename: ./frida_16.7.8~pirogue1_amd64.deb
+Size: 35266300
+MD5sum: f04f83ca7b2ebf46f71373b5670bb441
+SHA1: 740fefe0ef7042488259639980355a4387a2ef60
+SHA256: 441dd532c3ba95d24bfeed3c8733f24c8cff042324107753abcc3a44e4a83634
+SHA512: 9f108a0fcde459bdd212b5949d1c2f87bb8e605247b3f45e2b947f76d6041005bf991bc3fd371f37dd7a9a23058311cbdff7cc474429f101f4275107ebc32ffa
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
+Package: frida
+Architecture: arm64
+Version: 16.7.8~pirogue1
+Priority: optional
+Section: python
+Maintainer: Cyril Brulebois <cyril@debamax.com>
+Installed-Size: 125603
+Depends: python3 (>= 3~), python3:any, python3-colorama, python3-prompt-toolkit, python3-pygments, libc6 (>= 2.35)
+Filename: ./frida_16.7.8~pirogue1_arm64.deb
+Size: 33626344
+MD5sum: 5dcc000a3f00b95af13c5f9012446bc8
+SHA1: 4b97ff5088ff5e55e8a445c249edea844ab36d70
+SHA256: 7b6c4646614af38bb6eb9c0dace23338b038f991cdc6f207fa62f72b82af638b
+SHA512: b7761eca9ecca5eaf9a5ec88bbdb8f80d5f4eaf3245faa6b481a0fda4b6385a928f6eeb27145368cfd8153f49c775a50ac1ec10a76efd227bbda1edfddeb129c
+Homepage: https://frida.re/
+Description: dynamic instrumentation toolkit for reverse-engineering
+ FIXME: Long description.
+
 Package: grafana
 Architecture: amd64
 Version: 8.1.5
