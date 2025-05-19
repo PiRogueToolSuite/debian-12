@@ -100,6 +100,23 @@ SHA512: f1a6a3c66bc9959ccd8c7db96409c5e6ce1c7b9cf208dce4a5533602fef5edcc3ebb4524
 Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
 Description: Python-based tool for converting PCAPNG files to HAR files
 
+Package: pcapng-utils
+Architecture: all
+Version: 1.0.9
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 125
+Depends: tshark (>= 4.0.0), python3-communityid, python3-sortedcontainers, python3:any
+Filename: ./pcapng-utils_1.0.9_all.deb
+Size: 27148
+MD5sum: 7cf71a97d83dcd319fd0aff3b2043f84
+SHA1: 63a32bb9f03897ea70c4a79690cc0cb7b09efc81
+SHA256: f60027c3ff7d4bb4afcbbd6bfa3a236b96134205920a8a7cb5f6e184f5dac7dc
+SHA512: 71b0b30656f1f7ca4c788d0255499d3969b1abaff431c34724057fdedaeef1aada928a94b08910f12adfb840474808cd97f33c977615b85ff285cf299388185e
+Homepage: https://github.com/PiRogueToolSuite/pirogue-admin
+Description: Python-based tool for converting PCAPNG files to HAR files
+
 Package: pirogue-admin-client
 Architecture: all
 Version: 2.0.0
