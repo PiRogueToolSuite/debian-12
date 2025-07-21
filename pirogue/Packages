@@ -854,6 +854,23 @@ SHA512: c41128cedcf12170b5f3bb1abbe168ffbfcbe1a00834e37eeef0d6cfbf00640e576a9074
 Homepage: https://github.com/PiRogueToolSuite/pirogue-evidence-collector
 Description: A set of tools to collect digital evidence from mobile devices
 
+Package: pirogue-evidence-collector
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 246
+Depends: python3:any, pirogue-admin-client, pirogue-colander-connector, python3-adb-shell, python3-usb1, python3-requests, python3-rich, python3-gi, python3-communityid, python3-flask, python3-qrcode, python3-rfc3161ng, python3-netifaces, adb, frida, tshark, tcpdump
+Filename: ./pirogue-evidence-collector_1.0.4_all.deb
+Size: 40724
+MD5sum: 9e35fe724ae604bc192d31883b5a61d8
+SHA1: b821ec902ccb3201ecff19ab1a812dbfbccd926a
+SHA256: 0ea7c20b73d029d2e9e7a3fc7e28120da5591f413e2c8d26d0a631887807b460
+SHA512: fef4945e6b75a9b2b1ae7483bfb987015c68fa097b98e277b67604af4e24d800e700c1982fd28c27733c04d8c94c89ef79b7fb25635bcd0836841b1d85325dfc
+Homepage: https://github.com/PiRogueToolSuite/pirogue-evidence-collector
+Description: A set of tools to collect digital evidence from mobile devices
+
 Package: pirogue-external-exposure
 Architecture: all
 Version: 2.0.0
