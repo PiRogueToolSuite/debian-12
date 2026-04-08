@@ -1374,6 +1374,26 @@ Homepage: https://github.com/PiRogueToolSuite/mongoose
 Description: A Python daemon and library for collecting, enriching, storing and
   forwarding network events from Suricata and NFStream.
 
+Package: pirogue-mongoose
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: misc
+Maintainer: U+039b <hello@pts-project.org>
+Installed-Size: 231
+Depends: suricata, suricata-update, python3-communityid, python3-geoip2, python3-nfstream, python3-numpy (>= 1:1.22), python3-pydantic, python3-yaml, python3-watchdog, python3-requests, python3-sqlalchemy, python3-systemd, pirogue-admin (>= 2.0.0), python3:any
+Conflicts: pirogue-eve-collector, pirogue-flow-inspector
+Replaces: pirogue-eve-collector, pirogue-flow-inspector
+Filename: ./pirogue-mongoose_1.0.3_all.deb
+Size: 43776
+MD5sum: 4155aad361aeadc71c52c30b1078e7ab
+SHA1: 5887f66bd3e1c0a33f7e62ee76595137f7a63cff
+SHA256: 547f35b6f765a4103f84cd60cda14f14b48590b68b6cb397af566b22cd038204
+SHA512: de9722936f1ef679815e9fff54d3032f526659d2f683e4f4b5fcb5b501bc253a2f2e817a6c5e29c6c1b22a0704a003b8a13165691957aa350885c7f47cf23585
+Homepage: https://github.com/PiRogueToolSuite/mongoose
+Description: A Python daemon and library for collecting, enriching, storing and
+  forwarding network events from Suricata and NFStream.
+
 Package: pirogue-networking
 Architecture: all
 Version: 1.3.5
