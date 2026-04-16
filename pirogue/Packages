@@ -1396,20 +1396,20 @@ Description: A Python daemon and library for collecting, enriching, storing and
 
 Package: pirogue-mongoose
 Architecture: all
-Version: 1.0.4
+Version: 1.0.5
 Priority: optional
 Section: misc
 Maintainer: U+039b <hello@pts-project.org>
 Installed-Size: 232
-Depends: suricata, suricata-update, python3-communityid, python3-geoip2, python3-nfstream, python3-numpy (>= 1:1.22), python3-pydantic, python3-yaml, python3-watchdog, python3-requests, python3-sqlalchemy (= 1.4.46), python3-systemd, pirogue-admin (>= 2.0.0), python3:any
+Depends: suricata, suricata-update, python3-communityid, python3-geoip2, python3-nfstream, python3-numpy (>= 1:1.22), python3-pydantic, python3-yaml, python3-watchdog, python3-requests, python3-sqlalchemy (>= 1.4.46), python3-systemd, pirogue-admin (>= 2.0.0), python3:any
 Conflicts: pirogue-eve-collector, pirogue-flow-inspector
 Replaces: pirogue-eve-collector, pirogue-flow-inspector
-Filename: ./pirogue-mongoose_1.0.4_all.deb
-Size: 44048
-MD5sum: b09f4e3eb58f867ffc686e1b2cc8dafd
-SHA1: bb274f1c5573fecb65bae075e7fbde6d8161f032
-SHA256: 2eefccb0c09d6f2d978b6251fb4de2653db04d2e51b66828c21059ac8c08f7aa
-SHA512: 59ae6e167fffe8f3ba42b30097779d09508a97d8a1d1bf01d0de0d793e4ed0c9ef2b3022881e2b7b21f6c8687d2641aa9f8e6c0b96808acb9e395b8b8acff6df
+Filename: ./pirogue-mongoose_1.0.5_all.deb
+Size: 44100
+MD5sum: a53064e75c46630232c171f0b99c220e
+SHA1: 9ee0f2a9375c70cc6e2d230a07b187ceb6e32c66
+SHA256: e9a696637f755bf2abeaffdd6973d1f12b32cd27fa4ae5b7e1f5b08bc08d3cde
+SHA512: 4aad47586205cbffc7d3c2a19da30555b1cef4a220e4b8a25e16f31fce23eb8eadf000046ad14b72f95d2fa1894bb2ecb4c868946a111f9825939af8512e34a5
 Homepage: https://github.com/PiRogueToolSuite/mongoose
 Description: A Python daemon and library for collecting, enriching, storing and
   forwarding network events from Suricata and NFStream.
