@@ -214,6 +214,52 @@ Homepage: https://frida.re/
 Description: dynamic instrumentation toolkit for reverse-engineering
  FIXME: Long description.
 
+Package: geoipupdate
+Architecture: amd64
+Version: 4.10.0-1
+Static-Built-Using: golang-1.19 (= 1.19.4-1), golang-github-gofrs-flock (= 0.8.1-1), golang-github-pkg-errors (= 0.9.1-2), golang-github-spf13-pflag (= 1.0.6~git20210604-d5e0c0615ace-1)
+Priority: optional
+Section: contrib/net
+Maintainer: Faidon Liambotis <paravoid@debian.org>
+Installed-Size: 5344
+Depends: libc6 (>= 2.34)
+Suggests: mmdb-bin
+Filename: ./geoipupdate_4.10.0-1_amd64.deb
+Size: 1771056
+MD5sum: 6640da4baaa04d022c7bebaecb2065cf
+SHA1: b57388b800b8599af5728393f2d2c654ec3843f1
+SHA256: d1edaa14d4aa73e3fcfd94e48859c38debd110e133e4d2b028edc8f3da9b5ee2
+SHA512: 65823fab75d336881256fdc6c3dc20110f4d4e13e244315fe266773dad24d1a2ce80143e48ee6d175f79f3c31898134853ac787ff4a390dc6543a8386b2f4027
+Homepage: https://dev.maxmind.com/geoip/updating-databases
+Description: MaxMind GeoIP/GeoIP2 database updates
+ The GeoIP Update program performs automatic updates of GeoIP2 and GeoLite2
+ binary databases, as supplied by MaxMind. These may be MaxMind's paid
+ products, or their GeoLite variants that are less accurate but provided
+ without charge.
+
+Package: geoipupdate
+Architecture: arm64
+Version: 4.10.0-1
+Static-Built-Using: golang-1.19 (= 1.19.4-1), golang-github-gofrs-flock (= 0.8.1-1), golang-github-pkg-errors (= 0.9.1-2), golang-github-spf13-pflag (= 1.0.6~git20210604-d5e0c0615ace-1)
+Priority: optional
+Section: contrib/net
+Maintainer: Faidon Liambotis <paravoid@debian.org>
+Installed-Size: 5088
+Depends: libc6 (>= 2.34)
+Suggests: mmdb-bin
+Filename: ./geoipupdate_4.10.0-1_arm64.deb
+Size: 1541992
+MD5sum: 54390d0b7b45bdcdec0c8a7522a6eee2
+SHA1: a8c9f10f7226b9e367e930a01e199b888a81af18
+SHA256: c262db0278f7a95dffdbd9b5c2bb904fe7a550f83d7d128df4755a0dc63c86a0
+SHA512: 376db8c5072ac3e79b3c16fa4702b13637b9218758b8d2c53363f4648e99fa37fa748584ff74fc8f3c9016352452aafd05d1ee8c97504b6af59c7f13c551afc7
+Homepage: https://dev.maxmind.com/geoip/updating-databases
+Description: MaxMind GeoIP/GeoIP2 database updates
+ The GeoIP Update program performs automatic updates of GeoIP2 and GeoLite2
+ binary databases, as supplied by MaxMind. These may be MaxMind's paid
+ products, or their GeoLite variants that are less accurate but provided
+ without charge.
+
 Package: grafana
 Architecture: amd64
 Version: 8.1.5
@@ -574,4 +620,74 @@ SHA512: 5756ddf2ec60c0a560a6a72d708dc84b1555aa4b6c963071c9ec0620c0ee8d60d59b07c2
 Description: VideoCore query tool for Raspberry devices
  vcgencmd is a command line utility that can get various pieces of
  information from the VideoCore GPU on the Raspberry Pi.
+
+Package: suricata
+Architecture: amd64
+Version: 1:6.0.10-1
+Priority: optional
+Section: net
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Installed-Size: 6371
+Pre-Depends: dpkg (>= 1.15.7.2), init-system-helpers (>= 1.54~)
+Depends: python3:any, libbpf1 (>= 1:0.7.0), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libevent-2.1-7 (>= 2.1.8-stable), libevent-pthreads-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 4.2), libhiredis0.14 (>= 0.14.1), libhtp2 (>= 1:0.5.42-1~), libhyperscan5 (>= 5.4.0), libjansson4 (>= 2.14), libluajit-5.1-2 (>= 2.0.4+dfsg) | libluajit2-5.1-2 (>= 2.1~), liblz4-1 (>= 0.0~r127), libmagic1 (>= 5.12), libmaxminddb0 (>= 1.0.2), libnet1 (>= 1.1.5), libnetfilter-log1 (>= 0.0.13), libnetfilter-queue1 (>= 1.0.2), libnfnetlink0 (>= 1.0.2), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpcap0.8 (>= 1.0.0), libpcre3, libyaml-0-2, zlib1g (>= 1:1.1.4), lsb-base (>= 3.0-6)
+Recommends: python3, snort-rules-default, suricata-update
+Suggests: libtcmalloc-minimal4
+Conflicts: libhtp1 (<< 0.5.16), suricata-hyperscan (<< 3.2)
+Replaces: libhtp1 (<< 0.5.16), suricata-hyperscan (<< 3.2)
+Filename: ./suricata_6.0.10-1_amd64.deb
+Size: 1962700
+MD5sum: 8d894b712f26b7b2d3d909afe33cd091
+SHA1: f82536592ee499b6d525befb99a4b2bcd9c6a6da
+SHA256: 99d4944888cad623631f19c4c876f78368fd0596ac950db7e73fb993e5c9c0e1
+SHA512: da31bda4b262ffac738d2046e3cc9f1cdd926905c3d1b644893120204f5873d113c57c6dba7c50d1d660d55e2ad9106a0159be97518a6aff78ae9c9c23014294
+Homepage: https://www.suricata-ids.org/
+Description: Next Generation Intrusion Detection and Prevention Tool
+ Suricata is a network Intrusion Detection System (IDS). It is based on
+ rules (and is fully compatible with snort rules) to detect a variety of
+ attacks / probes by searching packet content.
+ .
+ It can also be used as Intrusion Prevention System (IPS), and as higher layer
+ firewall.
+ .
+ This new Engine supports Multi-Threading, Automatic Protocol Detection
+ (IP, TCP, UDP, ICMP, HTTP, TLS, FTP and SMB), Gzip Decompression, Fast
+ IP Matching and coming soon hardware acceleration on CUDA and OpenCL GPU
+ cards.
+ .
+ This version has inline (NFQUEUE) support enabled.
+
+Package: suricata
+Architecture: arm64
+Version: 1:6.0.10-1
+Priority: optional
+Section: net
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Installed-Size: 5883
+Pre-Depends: dpkg (>= 1.15.7.2), init-system-helpers (>= 1.54~)
+Depends: python3:any, libbpf1 (>= 1:0.7.0), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libevent-2.1-7 (>= 2.1.8-stable), libevent-pthreads-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 4.2), libhiredis0.14 (>= 0.14.1), libhtp2 (>= 1:0.5.42-1~), libjansson4 (>= 2.14), liblz4-1 (>= 0.0~r127), libmagic1 (>= 5.12), libmaxminddb0 (>= 1.0.2), libnet1 (>= 1.1.5), libnetfilter-log1 (>= 0.0.13), libnetfilter-queue1 (>= 1.0.2), libnfnetlink0 (>= 1.0.2), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpcap0.8 (>= 1.0.0), libpcre3, libyaml-0-2, zlib1g (>= 1:1.1.4), lsb-base (>= 3.0-6)
+Recommends: python3, snort-rules-default, suricata-update
+Suggests: libtcmalloc-minimal4
+Conflicts: libhtp1 (<< 0.5.16), suricata-hyperscan (<< 3.2)
+Replaces: libhtp1 (<< 0.5.16), suricata-hyperscan (<< 3.2)
+Filename: ./suricata_6.0.10-1_arm64.deb
+Size: 1735708
+MD5sum: 7ddc6ef8feee06dba92deb454ac9b471
+SHA1: 0bfcccf3706c5b6060597d22304e180eb218dcbf
+SHA256: 25938c0377141388dd966ba5edc9d78487c49a32d0e71efc595bea71317580ee
+SHA512: 4a214c6ca4b9f3f05fa05337d219749d6624f118ab8c46424942214d97fd743d86a1924571491afacec73d9d5688c9abfc3bbecb97db00e6cd584174cdab7e9c
+Homepage: https://www.suricata-ids.org/
+Description: Next Generation Intrusion Detection and Prevention Tool
+ Suricata is a network Intrusion Detection System (IDS). It is based on
+ rules (and is fully compatible with snort rules) to detect a variety of
+ attacks / probes by searching packet content.
+ .
+ It can also be used as Intrusion Prevention System (IPS), and as higher layer
+ firewall.
+ .
+ This new Engine supports Multi-Threading, Automatic Protocol Detection
+ (IP, TCP, UDP, ICMP, HTTP, TLS, FTP and SMB), Gzip Decompression, Fast
+ IP Matching and coming soon hardware acceleration on CUDA and OpenCL GPU
+ cards.
+ .
+ This version has inline (NFQUEUE) support enabled.
 
